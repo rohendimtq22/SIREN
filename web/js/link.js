@@ -17,7 +17,7 @@ const defaultUUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
 const itemsPerPage = 10
 let currentPage = 1
 
-const pathTemplate = "/Inconigto-Mode/{ip}-{port}"
+const pathTemplate = "/afrcloud/{ip}-{port}"
 
 // Array of bug options for easy management
 const bugOptions = [
