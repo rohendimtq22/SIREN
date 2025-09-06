@@ -1,1 +1,2100 @@
-function _0x3880(_0x523e44,_0x18920d){const _0x503348=_0x5033();return _0x3880=function(_0x3880e0,_0x678275){_0x3880e0=_0x3880e0-0x1ae;let _0x1f09c2=_0x503348[_0x3880e0];return _0x1f09c2;},_0x3880(_0x523e44,_0x18920d);}const _0x5ec142=_0x3880;function _0x5033(){const _0x58ebae=['body','security','config-to-v2ray-section','\x0a\x20\x20\x20\x20udp:\x20true\x0a\x20\x20\x20\x20tls:\x20','\x22,\x0a\x20\x20\x20\x20\x20\x20\x22server_port\x22:\x20','password','split','substring','Invalid\x20VMess\x20link\x20format','\x22\x0a\x20\x20\x20\x20type:\x20trojan\x0a\x20\x20\x20\x20server:\x20','addEventListener','network:','trimRight','push','convert-config','forEach','\x20\x20\x20\x20\x20\x20-\x20BEST-PING\x0a','\x0a\x20\x20\x20\x20uuid:\x20','File\x20\x22','Load\x20Balance','-\x20name:','5136324chQSgU','\x0aproxies:\x0a','classList','proxy-groups:','active','\x20\x20\x20\x20sni:\x20','&path=','toast-notification','display','name','v2ray-output','\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22ws\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22trojan\x22\x0a\x20\x20\x20\x20}','lastIndexOf','style','opacity','text/yaml','\x0a\x20\x20\x20\x20skip-cert-verify:\x20','\x20\x20\x20\x20network:\x20ws\x0a\x20\x20\x20\x20ws-opts:\x0a\x20\x20\x20\x20\x20\x20path:\x20','trim','289812fjGOrE','server','fallback','##INCONIGTO-MODE##\x0a{\x0a\x20\x20\x22dns\x22:\x20{\x0a\x20\x20\x20\x20\x22final\x22:\x20\x22dns-final\x22,\x0a\x20\x20\x20\x20\x22independent_cache\x22:\x20true,\x0a\x20\x20\x20\x20\x22rules\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22disable_cache\x22:\x20false,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22domain\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22family.cloudflare-dns.com\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22server\x22:\x20\x22direct-dns\x22\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x22servers\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22address\x22:\x20\x22https://family.cloudflare-dns.com/dns-query\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22address_resolver\x22:\x20\x22direct-dns\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22strategy\x22:\x20\x22ipv4_only\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22remote-dns\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22address\x22:\x20\x22local\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22strategy\x22:\x20\x22ipv4_only\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22direct-dns\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22address\x22:\x20\x22local\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22address_resolver\x22:\x20\x22dns-local\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22strategy\x22:\x20\x22ipv4_only\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22dns-final\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22address\x22:\x20\x22local\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22dns-local\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22address\x22:\x20\x22rcode://success\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22dns-block\x22\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20]\x0a\x20\x20},\x0a\x20\x20\x22experimental\x22:\x20{\x0a\x20\x20\x20\x20\x22cache_file\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x22enabled\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x22path\x22:\x20\x22../cache/clash.db\x22,\x0a\x20\x20\x20\x20\x20\x20\x22store_fakeip\x22:\x20true\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x22clash_api\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x22external_controller\x22:\x20\x22127.0.0.1:9090\x22,\x0a\x20\x20\x20\x20\x20\x20\x22external_ui\x22:\x20\x22../files/yacd\x22\x0a\x20\x20\x20\x20}\x0a\x20\x20},\x0a\x20\x20\x22inbounds\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22listen\x22:\x20\x220.0.0.0\x22,\x0a\x20\x20\x20\x20\x20\x20\x22listen_port\x22:\x206450,\x0a\x20\x20\x20\x20\x20\x20\x22override_address\x22:\x20\x228.8.8.8\x22,\x0a\x20\x20\x20\x20\x20\x20\x22override_port\x22:\x2053,\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22dns-in\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22direct\x22\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22domain_strategy\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x22endpoint_independent_nat\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x22inet4_address\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22172.19.0.1/28\x22\x0a\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x22mtu\x22:\x209000,\x0a\x20\x20\x20\x20\x20\x20\x22sniff\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x22sniff_override_destination\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x22stack\x22:\x20\x22system\x22,\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22tun-in\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22tun\x22\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22domain_strategy\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x22listen\x22:\x20\x220.0.0.0\x22,\x0a\x20\x20\x20\x20\x20\x20\x22listen_port\x22:\x202080,\x0a\x20\x20\x20\x20\x20\x20\x22sniff\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x22sniff_override_destination\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22mixed-in\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22mixed\x22\x0a\x20\x20\x20\x20}\x0a\x20\x20],\x0a\x20\x20\x22log\x22:\x20{\x0a\x20\x20\x20\x20\x22level\x22:\x20\x22info\x22\x0a\x20\x20},\x0a\x20\x20\x22outbounds\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22outbounds\x22:\x20[\x0a','\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22utls\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22enabled\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22fingerprint\x22:\x20\x22randomized\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20},','servername:','uuid','Invalid\x20Shadowsocks\x20link\x20format:','best-ping','wsPath','Please\x20enter\x20V2Ray\x20links\x20to\x20convert','clash-options','enhanced-mode:\x20fake-ip','length','server:','rules:','193584snCFXY','skipCertVerify','DOMContentLoaded','\x0a\x20\x20\x20\x20\x20\x20mux:\x20false\x0a\x20\x20\x20\x20\x20\x20skip-cert-verify:\x20true\x0a\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20custom:\x20value\x0a\x20\x20\x20\x20\x20\x20ip-version:\x20dual\x0a\x20\x20\x20\x20\x20\x20v2ray-http-upgrade:\x20false\x0a\x20\x20\x20\x20\x20\x20v2ray-http-upgrade-fast-open:\x20false\x0a','hidden','type:','show','Host:','tcp','startsWith','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22direct\x22\x0a\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22Fallback\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22urltest\x22,\x0a\x20\x20\x20\x20\x20\x20\x22url\x22:\x20\x22https://detectportal.firefox.com/success.txt\x22,\x0a\x20\x20\x20\x20\x20\x20\x22fallback_delay\x22:\x20\x22300ms\x22\x0a\x20\x20\x20\x20},\x0a','v2ray_links_','\x0a\x20\x20-\x20name:\x20\x22PORN\x22\x0a\x20\x20\x20\x20type:\x20select\x0a\x20\x20\x20\x20proxies:\x0a\x20\x20\x20\x20\x20\x20-\x20REJECT\x0a\x20\x20\x20\x20\x20\x20-\x20DIRECT\x0a','v2ray-input','Error\x20parsing\x20Clash\x20config:','tls:','\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22interval\x22:\x20\x221m0s\x22,\x0a\x20\x20\x20\x20\x20\x20\x22outbounds\x22:\x20[\x0a','port:','\x22\x0a\x20\x20\x20\x20type:\x20vless\x0a\x20\x20\x20\x20server:\x20','&type=','href','cipher:','\x0arules:\x0a','clash-type','v2ray-to-config-section','host','headers','sni:','search','all-groups','vless://','\x0a\x20\x20\x20\x20port:\x20','\x22,\x0a\x20\x20\x20\x20\x20\x20\x22plugin\x22:\x20\x22v2ray-plugin\x22,\x0a\x20\x20\x20\x20\x20\x20\x22plugin_opts\x22:\x20\x22mux=0;path=','&sni=','full-config','Best\x20Latency','click','config-input','Invalid\x20VLESS\x20link\x20format','\x0a\x20\x20\x20\x20plugin:\x20v2ray-plugin\x0a\x20\x20\x20\x20client-fingerprint:\x20chrome\x0a\x20\x20\x20\x20udp:\x20false\x0a\x20\x20\x20\x20plugin-opts:\x0a\x20\x20\x20\x20\x20\x20mode:\x20websocket\x0a\x20\x20\x20\x20\x20\x20host:\x20','vmess://',',\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22direct\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22direct\x22\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22bypass\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22direct\x22\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22block\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22block\x22\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22dns-out\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22dns\x22\x0a\x20\x20\x20\x20}\x0a\x20\x20],\x0a\x20\x20\x22route\x22:\x20{\x0a\x20\x20\x20\x20\x22auto_detect_interface\x22:\x20true,\x0a\x20\x20\x20\x20\x22rules\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22outbound\x22:\x20\x22dns-out\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22port\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2053\x0a\x20\x20\x20\x20\x20\x20\x20\x20]\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22inbound\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22dns-in\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22outbound\x22:\x20\x22dns-out\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22network\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22udp\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22outbound\x22:\x20\x22block\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22port\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20443\x0a\x20\x20\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22port_range\x22:\x20[]\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22ip_cidr\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22224.0.0.0/3\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22ff00::/8\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22outbound\x22:\x20\x22block\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22source_ip_cidr\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22224.0.0.0/3\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22ff00::/8\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20]\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20]\x0a\x20\x20}\x0a}','proxy_provider_','proxies:','Failed\x20to\x20convert\x20V2Ray\x20links.\x20Please\x20check\x20your\x20input.','contains','copy','value','\x20\x20-\x20name:\x20\x22SELECTOR\x22\x0a\x20\x20\x20\x20type:\x20select\x0a\x20\x20\x20\x20proxies:\x0a\x20\x20\x20\x20\x20\x20-\x20DIRECT\x0a\x20\x20\x20\x20\x20\x20-\x20REJECT\x0a','\x0a\x20\x20\x20\x20password:\x20','SS\x20Server','scy','createElement','load-balance','\x0a\x20\x20\x20\x20\x20\x20\x22tls\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22enabled\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22insecure\x22:\x20false,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22server_name\x22:\x20\x22','ss://','toISOString',',\x0a\x20\x20\x20\x20\x20\x20\x22method\x22:\x20\x22none\x22,\x0a\x20\x20\x20\x20\x20\x20\x22password\x22:\x20\x22','\x20\x20-\x20RULE-SET,⛔\x20ADS,ADS\x0a','rule-providers:\x0a','minimal-config','\x20\x20\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20\x20\x20Host:\x20','Fallback','uuid:','\x20\x20\x20\x20servername:\x20','\x0a\x20\x20\x20\x20\x20\x20path:\x20','tls','wsOpts','1343349GpeoYn','error-message','revokeObjectURL',';tls=','\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22domain_strategy\x22:\x20\x22ipv4_only\x22,\x0a\x20\x20\x20\x20\x20\x20\x22flow\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x22multiplex\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22enabled\x22:\x20false,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22max_streams\x22:\x2032,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22protocol\x22:\x20\x22smux\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20\x22packet_encoding\x22:\x20\x22xudp\x22,\x0a\x20\x20\x20\x20\x20\x20\x22server\x22:\x20\x22','writeText','\x0aproxy-groups:\x0a\x20\x20-\x20name:\x20\x22INCONIGTO-MODE\x22\x0a\x20\x20\x20\x20type:\x20select\x0a\x20\x20\x20\x20proxies:\x0a\x20\x20\x20\x20\x20\x20-\x20SELECTOR\x0a','true','No\x20content\x20to\x20download.\x20Please\x20convert\x20first.','v2ray-to-config','5JnWHlN','vless','join','\x20\x20\x20\x20\x20\x20-\x20FALLBACK\x0a','wsHost','copy-v2ray','parseInt','9HwoQcX','Please\x20enter\x20configuration\x20to\x20convert','\x0a\x20\x20\x20\x20\x20\x20\x22transport\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22early_data_header_name\x22:\x20\x22Sec-WebSocket-Protocol\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22headers\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22Host\x22:\x20\x22','6320048JVJsAB','\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22vmess\x22,\x0a\x20\x20\x20\x20\x20\x20\x22domain_strategy\x22:\x20\x22prefer_ipv4\x22,\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22','flex','port','trojan://','\x22\x0a\x20\x20\x20\x20}','\x20\x20\x20\x20\x20\x20\x20\x20\x22','\x0a\x20\x20-\x20name:\x20\x22LOAD-BALANCE\x22\x0a\x20\x20\x20\x20type:\x20load-balance\x0a\x20\x20\x20\x20url:\x20http://www.gstatic.com/generate_204\x0a\x20\x20\x20\x20interval:\x20300\x0a\x20\x20\x20\x20strategy:\x20round-robin\x0a\x20\x20\x20\x20proxies:\x0a','getElementById','sni','\x0a\x20\x20🔞\x20Porn:\x0a\x20\x20\x20\x20type:\x20http\x0a\x20\x20\x20\x20behavior:\x20domain\x0a\x20\x20\x20\x20url:\x20\x22https://raw.githubusercontent.com/malikshi/open_clash/refs/heads/main/rule_provider/rule_porn.yaml\x22\x0a\x20\x20\x20\x20path:\x20\x22./rule_provider/rule_porn.yaml\x22\x0a\x20\x20\x20\x20interval:\x2086400\x0a','alterId','.txt','\x22\x0a\x20\x20\x20\x20server:\x20','\x22,\x0a','\x22\x20downloaded\x20successfully!','\x20\x20\x20\x20\x20\x20-\x20LOAD-BALANCE\x0a','replace','message','path:','minimal-config-reverse','<i\x20class=\x22far\x20fa-copy\x22></i>\x20Copy','inconigto-mode_','\x20\x20-\x20name:\x20\x22[','none','loading-indicator','porn-block','\x20\x20\x20\x20\x20\x20-\x20\x22[','.yaml',';host=','net','869090fJStCn','path','removeChild','vmess','appendChild','toggle','trojan','cipher','position','clipboard','clash','match','1261395suYirt','\x0a\x20\x20-\x20name:\x20\x22FALLBACK\x22\x0a\x20\x20\x20\x20type:\x20fallback\x0a\x20\x20\x20\x20url:\x20http://www.gstatic.com/generate_204\x0a\x20\x20\x20\x20interval:\x20300\x0a\x20\x20\x20\x20proxies:\x0a','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22direct\x22\x0a\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22Best\x20Latency\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22urltest\x22,\x0a\x20\x20\x20\x20\x20\x20\x22url\x22:\x20\x22https://detectportal.firefox.com/success.txt\x22\x0a\x20\x20\x20\x20},\x0a','nekobox-format','remove','\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22max_early_data\x22:\x200,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22path\x22:\x20\x22','\x0a\x20\x20\x20\x20cipher:\x20','Invalid\x20Trojan\x20link\x20format','type','\x22\x0a\x20\x20\x20\x20type:\x20vmess\x0a\x20\x20\x20\x20server:\x20','<i\x20class=\x22fas\x20fa-check\x22></i>\x20Copied!','map','keys','&host=','config-to-v2ray','#\x20Clash\x20Configuration\x0a#\x20Generated\x20by\x20Inconigto-Mode\x20Converter\x0a#\x20Date:\x20','filter','\x22,\x0a\x20\x20\x20\x20\x20\x20\x22server\x22:\x20\x22','enhanced-mode:\x20redir-host','config-output','\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22alter_id\x22:\x200,\x0a\x20\x20\x20\x20\x20\x20\x22packet_encoding\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x22security\x22:\x20\x22zero\x22,\x0a\x20\x20\x20\x20\x20\x20\x22server\x22:\x20\x22','\x0a\x20\x20⛔\x20ADS:\x0a\x20\x20\x20\x20type:\x20http\x0a\x20\x20\x20\x20behavior:\x20domain\x0a\x20\x20\x20\x20url:\x20\x22https://raw.githubusercontent.com/malikshi/open_clash/refs/heads/main/rule_provider/rule_basicads.yaml\x22\x0a\x20\x20\x20\x20path:\x20\x22./rule_provider/rule_basicads.yaml\x22\x0a\x20\x20\x20\x20interval:\x2086400\x0a','network','stringify','add','redir-host','\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22ws\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20\x22uuid\x22:\x20\x22','innerHTML','createObjectURL','ws-opts:','\x0a\x20\x20\x20\x20alterId:\x20','?encryption=','includes',',\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22','9OoPQao','Failed\x20to\x20parse\x20Clash\x20configuration.\x20Please\x20check\x20the\x20format.','error','className','clash-format'];_0x5033=function(){return _0x58ebae;};return _0x5033();}(function(_0x1452c5,_0x3a2e74){const _0x4c08cc=_0x3880,_0xa047f0=_0x1452c5();while(!![]){try{const _0x4dec43=parseInt(_0x4c08cc(0x217))/0x1*(parseInt(_0x4c08cc(0x1c2))/0x2)+-parseInt(_0x4c08cc(0x245))/0x3+parseInt(_0x4c08cc(0x1b2))/0x4+parseInt(_0x4c08cc(0x210))/0x5*(parseInt(_0x4c08cc(0x281))/0x6)+-parseInt(_0x4c08cc(0x206))/0x7+-parseInt(_0x4c08cc(0x21a))/0x8+parseInt(_0x4c08cc(0x267))/0x9*(parseInt(_0x4c08cc(0x239))/0xa);if(_0x4dec43===_0x3a2e74)break;else _0xa047f0['push'](_0xa047f0['shift']());}catch(_0x51cabb){_0xa047f0['push'](_0xa047f0['shift']());}}}(_0x5033,0x76346),document[_0x5ec142(0x276)](_0x5ec142(0x1c4),()=>{const _0x4b4e44=_0x5ec142,_0x59e4f9=document[_0x4b4e44(0x222)](_0x4b4e44(0x20f)),_0x5ad691=document[_0x4b4e44(0x222)](_0x4b4e44(0x253)),_0x250f54=document['getElementById'](_0x4b4e44(0x1da)),_0x4a5dc2=document[_0x4b4e44(0x222)](_0x4b4e44(0x26e)),_0x28961b=document[_0x4b4e44(0x222)](_0x4b4e44(0x26b)),_0x17b8bf=document['getElementById'](_0x4b4e44(0x248)),_0x50649c=document[_0x4b4e44(0x222)](_0x4b4e44(0x1d9)),_0x18303f=document[_0x4b4e44(0x222)](_0x4b4e44(0x1cf)),_0x1640c3=document['getElementById'](_0x4b4e44(0x1e7)),_0xd861e9=document[_0x4b4e44(0x222)](_0x4b4e44(0x258)),_0x54b477=document[_0x4b4e44(0x222)](_0x4b4e44(0x28b)),_0x1e3e76=document['getElementById']('convert-v2ray'),_0x3dbe29=document['getElementById'](_0x4b4e44(0x27a)),_0xdb7c16=document[_0x4b4e44(0x222)]('copy-config'),_0x3e74dc=document[_0x4b4e44(0x222)](_0x4b4e44(0x215)),_0x18c9f1=document[_0x4b4e44(0x222)](_0x4b4e44(0x233)),_0x3fc2e0=document[_0x4b4e44(0x222)](_0x4b4e44(0x207)),_0x5a0c34=document['getElementById']('fake-ip'),_0xb9deb3=document['getElementById'](_0x4b4e44(0x25e)),_0x5c7cad=document[_0x4b4e44(0x222)](_0x4b4e44(0x1ba)),_0x220f86=document[_0x4b4e44(0x222)]('load-balance'),_0x2508af=document[_0x4b4e44(0x222)](_0x4b4e44(0x1b4)),_0x48fb96=document[_0x4b4e44(0x222)](_0x4b4e44(0x1df)),_0x3ad214=document[_0x4b4e44(0x222)]('ads-block'),_0x2e77b1=document[_0x4b4e44(0x222)](_0x4b4e44(0x234)),_0x340cdc=document[_0x4b4e44(0x222)](_0x4b4e44(0x1bd));_0x59e4f9[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x371841=_0x4b4e44;_0x59e4f9[_0x371841(0x283)]['add'](_0x371841(0x285)),_0x5ad691[_0x371841(0x283)][_0x371841(0x249)](_0x371841(0x285)),_0x250f54[_0x371841(0x283)]['remove']('hidden'),_0x4a5dc2['classList'][_0x371841(0x25d)](_0x371841(0x1c6)),_0x7239c9();}),_0x5ad691[_0x4b4e44(0x276)]('click',()=>{const _0x2ac3a0=_0x4b4e44;_0x5ad691[_0x2ac3a0(0x283)][_0x2ac3a0(0x25d)](_0x2ac3a0(0x285)),_0x59e4f9['classList'][_0x2ac3a0(0x249)](_0x2ac3a0(0x285)),_0x4a5dc2['classList'][_0x2ac3a0(0x249)](_0x2ac3a0(0x1c6)),_0x250f54[_0x2ac3a0(0x283)][_0x2ac3a0(0x25d)](_0x2ac3a0(0x1c6)),_0x7239c9();}),_0x28961b['addEventListener'](_0x4b4e44(0x1e6),()=>{const _0x66aaca=_0x4b4e44;_0x28961b[_0x66aaca(0x283)][_0x66aaca(0x25d)](_0x66aaca(0x285)),_0x17b8bf[_0x66aaca(0x283)]['remove']('active'),_0x130fde(),_0x7239c9();}),_0x17b8bf[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x286e5c=_0x4b4e44;_0x17b8bf['classList']['add'](_0x286e5c(0x285)),_0x28961b[_0x286e5c(0x283)][_0x286e5c(0x249)]('active'),_0x130fde(),_0x7239c9();}),_0x50649c['addEventListener'](_0x4b4e44(0x1e6),()=>{const _0x8f72da=_0x4b4e44;_0x50649c[_0x8f72da(0x283)][_0x8f72da(0x25d)](_0x8f72da(0x285)),_0x7239c9();});const _0x8c2d3d=document[_0x4b4e44(0x222)](_0x4b4e44(0x1fe)),_0x5b7016=document[_0x4b4e44(0x222)](_0x4b4e44(0x1e4)),_0x5f49bf=document[_0x4b4e44(0x222)](_0x4b4e44(0x22e)),_0x31ba01=document[_0x4b4e44(0x222)]('full-config-reverse');_0x8c2d3d[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0xdf551b=_0x4b4e44;_0x8c2d3d[_0xdf551b(0x283)][_0xdf551b(0x25d)](_0xdf551b(0x285)),_0x5b7016['classList'][_0xdf551b(0x249)](_0xdf551b(0x285)),_0x7239c9(),_0x4476da[_0xdf551b(0x28e)][_0xdf551b(0x289)]='flex',_0x1fd788[_0xdf551b(0x28e)][_0xdf551b(0x289)]=_0xdf551b(0x232);}),_0x5b7016[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x508acb=_0x4b4e44;_0x5b7016[_0x508acb(0x283)]['add']('active'),_0x8c2d3d[_0x508acb(0x283)][_0x508acb(0x249)]('active'),_0x7239c9(),_0x4476da[_0x508acb(0x28e)]['display']=_0x508acb(0x232),_0x1fd788['style']['display']='flex';}),_0x5f49bf[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x1cceff=_0x4b4e44;_0x5f49bf[_0x1cceff(0x283)][_0x1cceff(0x25d)](_0x1cceff(0x285)),_0x31ba01[_0x1cceff(0x283)]['remove']('active'),_0x7239c9();}),_0x31ba01[_0x4b4e44(0x276)]('click',()=>{const _0x3b9836=_0x4b4e44;_0x31ba01['classList'][_0x3b9836(0x25d)](_0x3b9836(0x285)),_0x5f49bf[_0x3b9836(0x283)][_0x3b9836(0x249)]('active'),_0x7239c9();}),_0x5a0c34[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x27ca86=_0x4b4e44;_0x5a0c34['classList'][_0x27ca86(0x25d)]('active'),_0xb9deb3['classList']['remove'](_0x27ca86(0x285)),_0x7239c9();}),_0xb9deb3['addEventListener']('click',()=>{const _0x479f9c=_0x4b4e44;_0xb9deb3[_0x479f9c(0x283)][_0x479f9c(0x25d)]('active'),_0x5a0c34['classList']['remove']('active'),_0x7239c9();}),_0x5c7cad[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x5ac440=_0x4b4e44;_0x5c7cad[_0x5ac440(0x283)][_0x5ac440(0x23e)](_0x5ac440(0x285)),_0x7239c9();}),_0x220f86[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x340b2a=_0x4b4e44;_0x220f86['classList'][_0x340b2a(0x23e)]('active'),_0x7239c9();}),_0x2508af[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x63db42=_0x4b4e44;_0x2508af[_0x63db42(0x283)][_0x63db42(0x23e)]('active'),_0x7239c9();}),_0x48fb96[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x1c33ef=_0x4b4e44;_0x48fb96[_0x1c33ef(0x283)][_0x1c33ef(0x1ef)]('active')?_0x48fb96[_0x1c33ef(0x283)][_0x1c33ef(0x249)](_0x1c33ef(0x285)):(_0x48fb96[_0x1c33ef(0x283)]['add'](_0x1c33ef(0x285)),_0x5c7cad[_0x1c33ef(0x283)]['add'](_0x1c33ef(0x285)),_0x220f86[_0x1c33ef(0x283)][_0x1c33ef(0x25d)](_0x1c33ef(0x285)),_0x2508af[_0x1c33ef(0x283)][_0x1c33ef(0x25d)](_0x1c33ef(0x285))),_0x7239c9();}),_0x3ad214['addEventListener'](_0x4b4e44(0x1e6),()=>{const _0x447ba8=_0x4b4e44;_0x3ad214[_0x447ba8(0x283)][_0x447ba8(0x23e)](_0x447ba8(0x285)),_0x7239c9();}),_0x2e77b1[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x519c04=_0x4b4e44;_0x2e77b1[_0x519c04(0x283)][_0x519c04(0x23e)](_0x519c04(0x285)),_0x7239c9();}),_0x1e3e76[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x369f4e=_0x4b4e44,_0x16d7b7=_0x18303f['value']['trim']();if(!_0x16d7b7){_0x41ff05(_0x369f4e(0x1bc));return;}_0x5e3918(),setTimeout(()=>{const _0x21e5e1=_0x369f4e;try{const _0x380f1d=_0x308678(_0x16d7b7,_0x21e5e1(0x243));_0xd861e9['value']=_0x380f1d,_0x169b63();}catch(_0x1e0bfc){_0x169b63(),_0x41ff05(_0x1e0bfc[_0x21e5e1(0x22c)]||_0x21e5e1(0x1ee));}},0x1f4);}),_0x3dbe29[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x46e8ac=_0x4b4e44,_0x4d737d=_0x1640c3[_0x46e8ac(0x1f1)]['trim']();if(!_0x4d737d){_0x41ff05(_0x46e8ac(0x218));return;}_0x5e3918(),setTimeout(()=>{const _0x535be0=_0x46e8ac;try{const _0x4ad5ef=_0x1d0d70(_0x4d737d,_0x31ba01[_0x535be0(0x283)]['contains'](_0x535be0(0x285)));_0x54b477[_0x535be0(0x1f1)]=_0x4ad5ef,_0x169b63();}catch(_0x198dff){_0x169b63(),_0x41ff05(_0x198dff[_0x535be0(0x22c)]||'Failed\x20to\x20convert\x20configuration.\x20Please\x20check\x20your\x20input.');}},0x1f4);}),_0xdb7c16[_0x4b4e44(0x276)]('click',()=>{const _0x5e4de6=_0x4b4e44;_0x2bd81a(_0xd861e9[_0x5e4de6(0x1f1)]),_0xdb7c16[_0x5e4de6(0x260)]=_0x5e4de6(0x24f),setTimeout(()=>{const _0xf1799d=_0x5e4de6;_0xdb7c16[_0xf1799d(0x260)]=_0xf1799d(0x22f);},0x7d0);}),_0x3e74dc[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x13e211=_0x4b4e44;_0x2bd81a(_0x54b477['value']),_0x3e74dc[_0x13e211(0x260)]=_0x13e211(0x24f),setTimeout(()=>{const _0x2a5b13=_0x13e211;_0x3e74dc[_0x2a5b13(0x260)]=_0x2a5b13(0x22f);},0x7d0);});function _0x467c8d(_0x11bddb,_0x134850){const _0x5ad4e6=_0x4b4e44,_0x9f4dab=new Blob([_0x11bddb],{'type':_0x5ad4e6(0x1ae)}),_0x310ad3=URL[_0x5ad4e6(0x261)](_0x9f4dab),_0x3c9930=document[_0x5ad4e6(0x1f6)]('a');_0x3c9930[_0x5ad4e6(0x1d6)]=_0x310ad3,_0x3c9930['download']=_0x134850,document['body'][_0x5ad4e6(0x23d)](_0x3c9930),_0x3c9930[_0x5ad4e6(0x1e6)](),document[_0x5ad4e6(0x26c)][_0x5ad4e6(0x23b)](_0x3c9930),URL[_0x5ad4e6(0x208)](_0x310ad3),_0x5d2e6e(_0x5ad4e6(0x27e)+_0x134850+_0x5ad4e6(0x229));}function _0x5d2e6e(_0x25773e){const _0x26f059=_0x4b4e44;let _0x12b17c=document[_0x26f059(0x222)](_0x26f059(0x288));!_0x12b17c&&(_0x12b17c=document[_0x26f059(0x1f6)]('div'),_0x12b17c['id']=_0x26f059(0x288),_0x12b17c[_0x26f059(0x26a)]='toast-notification',_0x12b17c[_0x26f059(0x260)]='<i\x20class=\x22fas\x20fa-check-circle\x22></i>\x20<span\x20id=\x22toast-message\x22></span>',document[_0x26f059(0x26c)][_0x26f059(0x23d)](_0x12b17c)),document[_0x26f059(0x222)]('toast-message')['textContent']=_0x25773e,_0x12b17c['classList']['add'](_0x26f059(0x1c8)),setTimeout(()=>{const _0x5008a5=_0x26f059;_0x12b17c[_0x5008a5(0x283)]['remove'](_0x5008a5(0x1c8));},0xbb8);}const _0x4476da=document[_0x4b4e44(0x222)]('save-proxy-provider'),_0x1fd788=document['getElementById']('save-full-config');_0x4476da[_0x4b4e44(0x276)]('click',()=>{const _0x40464f=_0x4b4e44,_0x59ab09=_0xd861e9['value'];if(!_0x59ab09){_0x41ff05('No\x20content\x20to\x20download.\x20Please\x20convert\x20first.');return;}const _0xf1473=new Date()['toISOString']()['replace'](/[:.]/g,'-')['substring'](0x0,0x13);_0x467c8d(_0x59ab09,_0x40464f(0x1ec)+_0xf1473+_0x40464f(0x236));}),_0x1fd788['addEventListener'](_0x4b4e44(0x1e6),()=>{const _0x479b37=_0x4b4e44,_0x2aabe5=_0xd861e9[_0x479b37(0x1f1)];if(!_0x2aabe5){_0x41ff05('No\x20content\x20to\x20download.\x20Please\x20convert\x20first.');return;}const _0x209e26=new Date()['toISOString']()[_0x479b37(0x22b)](/[:.]/g,'-')['substring'](0x0,0x13);_0x467c8d(_0x2aabe5,_0x479b37(0x230)+_0x209e26+_0x479b37(0x236));});const _0x26ac1e=document[_0x4b4e44(0x222)]('save-v2ray-links');_0x26ac1e[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x128c22=_0x4b4e44,_0x42fa53=_0x54b477[_0x128c22(0x1f1)];if(!_0x42fa53){_0x41ff05(_0x128c22(0x20e));return;}const _0x4269f8=new Date()[_0x128c22(0x1fa)]()[_0x128c22(0x22b)](/[:.]/g,'-')['substring'](0x0,0x13);_0x467c8d(_0x42fa53,_0x128c22(0x1cd)+_0x4269f8+_0x128c22(0x226));});_0x8c2d3d[_0x4b4e44(0x283)][_0x4b4e44(0x1ef)]('active')?(_0x4476da['style'][_0x4b4e44(0x289)]=_0x4b4e44(0x21c),_0x1fd788[_0x4b4e44(0x28e)]['display']='none'):(_0x4476da[_0x4b4e44(0x28e)]['display']=_0x4b4e44(0x232),_0x1fd788['style'][_0x4b4e44(0x289)]=_0x4b4e44(0x21c));function _0x5e3918(){const _0x2b174b=_0x4b4e44;_0x18c9f1['classList'][_0x2b174b(0x249)]('hidden');}function _0x169b63(){const _0x4b9eb1=_0x4b4e44;_0x18c9f1['classList'][_0x4b9eb1(0x25d)]('hidden');}function _0x41ff05(_0x53b1ef){const _0x5ab26d=_0x4b4e44;_0x3fc2e0['textContent']=_0x53b1ef,_0x3fc2e0['classList']['remove'](_0x5ab26d(0x1c6));}function _0x7239c9(){const _0x1d0306=_0x4b4e44;_0x3fc2e0['classList'][_0x1d0306(0x25d)](_0x1d0306(0x1c6));}async function _0x2bd81a(_0x53af76){const _0x12ba6e=_0x4b4e44;try{return await navigator[_0x12ba6e(0x242)][_0x12ba6e(0x20b)](_0x53af76),!![];}catch(_0x2f469b){console[_0x12ba6e(0x269)]('Failed\x20to\x20copy:\x20',_0x2f469b);const _0x55c026=document[_0x12ba6e(0x1f6)]('textarea');return _0x55c026[_0x12ba6e(0x1f1)]=_0x53af76,_0x55c026[_0x12ba6e(0x28e)][_0x12ba6e(0x241)]='fixed',_0x55c026['style'][_0x12ba6e(0x28f)]='0',document['body']['appendChild'](_0x55c026),_0x55c026['select'](),document['execCommand'](_0x12ba6e(0x1f0)),document[_0x12ba6e(0x26c)][_0x12ba6e(0x23b)](_0x55c026),!![];}}function _0x308678(_0x232e0d,_0x3b4595){const _0x3f4386=_0x4b4e44,_0x53c2c2=_0x232e0d['split'](/\r?\n/)[_0x3f4386(0x255)](_0x9710=>_0x9710['trim']()!=='');if(_0x53c2c2[_0x3f4386(0x1bf)]===0x0)throw new Error('No\x20valid\x20V2Ray\x20links\x20found');const _0x3ed063=_0x53c2c2[_0x3f4386(0x250)](_0x3596d8=>_0x2d22fa(_0x3596d8)),_0x4b68ea=_0x5b7016['classList'][_0x3f4386(0x1ef)]('active'),_0x402772=_0x5a0c34[_0x3f4386(0x283)]['contains'](_0x3f4386(0x285)),_0x38e8cf=_0x5c7cad[_0x3f4386(0x283)][_0x3f4386(0x1ef)]('active'),_0x4b2170=_0x220f86[_0x3f4386(0x283)][_0x3f4386(0x1ef)](_0x3f4386(0x285)),_0xf37eae=_0x2508af[_0x3f4386(0x283)]['contains']('active'),_0x162d9a=_0x48fb96[_0x3f4386(0x283)]['contains'](_0x3f4386(0x285)),_0x19610c=_0x3ad214[_0x3f4386(0x283)]['contains']('active'),_0x4f6dd7=_0x2e77b1[_0x3f4386(0x283)][_0x3f4386(0x1ef)]('active');if(_0x28961b[_0x3f4386(0x283)]['contains'](_0x3f4386(0x285)))return _0x1b253b(_0x3ed063,_0x4b68ea,{'useFakeIp':_0x402772,'useBestPing':_0x38e8cf,'useLoadBalance':_0x4b2170,'useFallback':_0xf37eae,'useAllGroups':_0x162d9a,'useAdsBlock':_0x19610c,'usePornBlock':_0x4f6dd7});else{if(_0x17b8bf['classList'][_0x3f4386(0x1ef)](_0x3f4386(0x285)))return _0x444353(_0x3ed063,_0x4b68ea);}}function _0x1d0d70(_0x42c803,_0x597265){const _0x2dfcf8=_0x4b4e44;try{const _0x534666=_0x42c803[_0x2dfcf8(0x272)]('\x0a'),_0x3b4a9a=[];let _0x3c15d6=![],_0x4eb483={},_0x1a4c6d=0x0;for(let _0x492876=0x0;_0x492876<_0x534666[_0x2dfcf8(0x1bf)];_0x492876++){const _0x40ed49=_0x534666[_0x492876][_0x2dfcf8(0x278)]();if(_0x40ed49[_0x2dfcf8(0x1b1)]()===''||_0x40ed49[_0x2dfcf8(0x1b1)]()[_0x2dfcf8(0x1cb)]('#'))continue;if(_0x40ed49[_0x2dfcf8(0x1b1)]()===_0x2dfcf8(0x1ed)){_0x3c15d6=!![];continue;}if(_0x3c15d6){const _0x228022=_0x40ed49[_0x2dfcf8(0x1de)](/\S/);if(_0x40ed49[_0x2dfcf8(0x1b1)]()[_0x2dfcf8(0x1cb)](_0x2dfcf8(0x280))){Object['keys'](_0x4eb483)[_0x2dfcf8(0x1bf)]>0x0&&(_0x3b4a9a['push'](_0x4eb483),_0x4eb483={});const _0x6459d5=_0x40ed49[_0x2dfcf8(0x244)](/- name: "(.+)"/);_0x6459d5&&_0x6459d5[0x1]&&(_0x4eb483['name']=_0x6459d5[0x1]),_0x1a4c6d=_0x228022;}else{if(_0x228022<=_0x1a4c6d&&!_0x40ed49[_0x2dfcf8(0x1b1)]()['startsWith']('-')&&_0x40ed49['includes'](':')){if(_0x40ed49[_0x2dfcf8(0x1b1)]()===_0x2dfcf8(0x284)||_0x40ed49['trim']()===_0x2dfcf8(0x1c1)){_0x3c15d6=![];Object[_0x2dfcf8(0x251)](_0x4eb483)['length']>0x0&&(_0x3b4a9a[_0x2dfcf8(0x279)](_0x4eb483),_0x4eb483={});continue;}}}if(Object[_0x2dfcf8(0x251)](_0x4eb483)['length']>0x0){if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x1c7))){const _0x21251b=_0x40ed49[_0x2dfcf8(0x244)](/type: (\w+)/);_0x21251b&&_0x21251b[0x1]&&(_0x4eb483[_0x2dfcf8(0x24d)]=_0x21251b[0x1]);}else{if(_0x40ed49['includes'](_0x2dfcf8(0x1c0))){const _0x223fb6=_0x40ed49['match'](/server: (.+)/);_0x223fb6&&_0x223fb6[0x1]&&(_0x4eb483['server']=_0x223fb6[0x1]);}else{if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x1d3))){const _0x357126=_0x40ed49[_0x2dfcf8(0x244)](/port: (\d+)/);_0x357126&&_0x357126[0x1]&&(_0x4eb483['port']=Number[_0x2dfcf8(0x216)](_0x357126[0x1],0xa));}else{if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x201))){const _0x204644=_0x40ed49['match'](/uuid: (.+)/);_0x204644&&_0x204644[0x1]&&(_0x4eb483[_0x2dfcf8(0x1b8)]=_0x204644[0x1]);}else{if(_0x40ed49[_0x2dfcf8(0x265)]('password:')){const _0x372790=_0x40ed49['match'](/password: (.+)/);_0x372790&&_0x372790[0x1]&&(_0x4eb483['password']=_0x372790[0x1]);}else{if(_0x40ed49['includes'](_0x2dfcf8(0x1d7))){const _0x434743=_0x40ed49['match'](/cipher: (.+)/);_0x434743&&_0x434743[0x1]&&(_0x4eb483[_0x2dfcf8(0x240)]=_0x434743[0x1]);}else{if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x1d1))){const _0x524e61=_0x40ed49[_0x2dfcf8(0x244)](/tls: (true|false)/);_0x524e61&&_0x524e61[0x1]&&(_0x4eb483[_0x2dfcf8(0x204)]=_0x524e61[0x1]===_0x2dfcf8(0x20d));}else{if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x277))){const _0x21c8d2=_0x40ed49[_0x2dfcf8(0x244)](/network: (.+)/);_0x21c8d2&&_0x21c8d2[0x1]&&(_0x4eb483['network']=_0x21c8d2[0x1]);}else{if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x1b7))||_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x1dd))){const _0x299eb5=_0x40ed49[_0x2dfcf8(0x244)](/(servername|sni): (.+)/);_0x299eb5&&_0x299eb5[0x2]&&(_0x4eb483[_0x2dfcf8(0x223)]=_0x299eb5[0x2]);}else{if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x22d))&&!_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x262))){const _0x96693e=_0x40ed49[_0x2dfcf8(0x244)](/path: (.+)/);_0x96693e&&_0x96693e[0x1]&&(_0x4eb483[_0x2dfcf8(0x23a)]=_0x96693e[0x1]);}else{if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x262)))_0x4eb483[_0x2dfcf8(0x205)]={};else{if(_0x4eb483[_0x2dfcf8(0x205)]!==undefined){if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x22d))){const _0x5b80e1=_0x40ed49[_0x2dfcf8(0x244)](/path: (.+)/);_0x5b80e1&&_0x5b80e1[0x1]&&(_0x4eb483[_0x2dfcf8(0x23a)]=_0x5b80e1[0x1]);}else{if(_0x40ed49[_0x2dfcf8(0x265)]('headers:'))_0x4eb483[_0x2dfcf8(0x205)][_0x2dfcf8(0x1dc)]={};else{if(_0x4eb483[_0x2dfcf8(0x205)][_0x2dfcf8(0x1dc)]!==undefined){if(_0x40ed49[_0x2dfcf8(0x265)](_0x2dfcf8(0x1c9))){const _0x17a414=_0x40ed49['match'](/Host: (.+)/);_0x17a414&&_0x17a414[0x1]&&(_0x4eb483['host']=_0x17a414[0x1]);}}}}}}}}}}}}}}}}}}}return Object[_0x2dfcf8(0x251)](_0x4eb483)[_0x2dfcf8(0x1bf)]>0x0&&_0x3b4a9a['push'](_0x4eb483),_0x36ef45(_0x3b4a9a);}catch(_0x25c9ba){console[_0x2dfcf8(0x269)](_0x2dfcf8(0x1d0),_0x25c9ba);throw new Error(_0x2dfcf8(0x268));}}function _0x36ef45(_0x1f7569){const _0xd25231=[];return _0x1f7569['forEach'](_0xe6f4fd=>{const _0x58fc17=_0x3880;let _0x235b25='';if(_0xe6f4fd[_0x58fc17(0x24d)]===_0x58fc17(0x23c)){const _0x31a3d2={'v':'2','ps':_0xe6f4fd[_0x58fc17(0x28a)],'add':_0xe6f4fd[_0x58fc17(0x1b3)],'port':_0xe6f4fd['port'],'id':_0xe6f4fd[_0x58fc17(0x1b8)],'aid':'0','net':_0xe6f4fd['network']||_0x58fc17(0x1ca),'type':_0x58fc17(0x232),'host':_0xe6f4fd[_0x58fc17(0x1db)]||_0xe6f4fd[_0x58fc17(0x1b3)],'path':_0xe6f4fd['path']||'','tls':_0xe6f4fd[_0x58fc17(0x204)]?_0x58fc17(0x204):'','sni':_0xe6f4fd['sni']||_0xe6f4fd[_0x58fc17(0x1b3)],'scy':_0xe6f4fd['cipher']||'auto'};_0x235b25='vmess://'+btoa(JSON[_0x58fc17(0x25c)](_0x31a3d2));}else{if(_0xe6f4fd['type']===_0x58fc17(0x211)){const _0x45ed66=_0xe6f4fd[_0x58fc17(0x1b8)],_0x59386d=_0xe6f4fd[_0x58fc17(0x1b3)],_0x2a2d32=_0xe6f4fd[_0x58fc17(0x21d)],_0x2a6b54='none',_0x152e78=_0xe6f4fd[_0x58fc17(0x204)]?'tls':_0x58fc17(0x232),_0x106ff5=_0xe6f4fd[_0x58fc17(0x25b)]||'tcp',_0x42fe43=encodeURIComponent(_0xe6f4fd[_0x58fc17(0x1db)]||_0xe6f4fd[_0x58fc17(0x1b3)]),_0x29b087=encodeURIComponent(_0xe6f4fd[_0x58fc17(0x23a)]||''),_0x3d1d07=encodeURIComponent(_0xe6f4fd[_0x58fc17(0x223)]||_0xe6f4fd['server']),_0x436faa=encodeURIComponent(_0xe6f4fd['name']);_0x235b25=_0x58fc17(0x1e0)+_0x45ed66+'@'+_0x59386d+':'+_0x2a2d32+_0x58fc17(0x264)+_0x2a6b54+'&security='+_0x152e78+_0x58fc17(0x1d5)+_0x106ff5+'&host='+_0x42fe43+_0x58fc17(0x287)+_0x29b087+_0x58fc17(0x1e3)+_0x3d1d07+'#'+_0x436faa;}else{if(_0xe6f4fd[_0x58fc17(0x24d)]===_0x58fc17(0x23f)){const _0x1127ae=_0xe6f4fd['password']||_0xe6f4fd[_0x58fc17(0x1b8)],_0xac00d=_0xe6f4fd[_0x58fc17(0x1b3)],_0x38c334=_0xe6f4fd[_0x58fc17(0x21d)],_0x4d421f=_0xe6f4fd[_0x58fc17(0x204)]?'tls':_0x58fc17(0x232),_0x1879bc=_0xe6f4fd[_0x58fc17(0x25b)]||_0x58fc17(0x1ca),_0x39cc4a=encodeURIComponent(_0xe6f4fd[_0x58fc17(0x1db)]||_0xe6f4fd[_0x58fc17(0x1b3)]),_0xa2ab52=encodeURIComponent(_0xe6f4fd['path']||''),_0x159a3f=encodeURIComponent(_0xe6f4fd['sni']||_0xe6f4fd[_0x58fc17(0x1b3)]),_0x2578a1=encodeURIComponent(_0xe6f4fd['name']);_0x235b25=_0x58fc17(0x21e)+_0x1127ae+'@'+_0xac00d+':'+_0x38c334+'?security='+_0x4d421f+'&type='+_0x1879bc+_0x58fc17(0x252)+_0x39cc4a+_0x58fc17(0x287)+_0xa2ab52+'&sni='+_0x159a3f+'#'+_0x2578a1;}else{if(_0xe6f4fd[_0x58fc17(0x24d)]==='ss'){const _0x16c85e=_0xe6f4fd['cipher']||_0x58fc17(0x232),_0x31bf61=_0xe6f4fd[_0x58fc17(0x271)],_0x3a55ca=_0xe6f4fd[_0x58fc17(0x1b3)],_0x572055=_0xe6f4fd[_0x58fc17(0x21d)],_0x10eaac=encodeURIComponent(_0xe6f4fd[_0x58fc17(0x28a)]),_0x5b1465=btoa(_0x16c85e+':'+_0x31bf61);_0x235b25=_0x58fc17(0x1f9)+_0x5b1465+'@'+_0x3a55ca+':'+_0x572055+'#'+_0x10eaac;if(_0xe6f4fd[_0x58fc17(0x25b)]==='ws'||_0xe6f4fd[_0x58fc17(0x23a)]){const _0x5ba02e='plugin=v2ray-plugin;path='+(_0xe6f4fd[_0x58fc17(0x23a)]||'')+_0x58fc17(0x237)+(_0xe6f4fd[_0x58fc17(0x1db)]||_0x3a55ca)+_0x58fc17(0x209)+(_0xe6f4fd[_0x58fc17(0x204)]?'1':'0');_0x235b25=_0x58fc17(0x1f9)+_0x5b1465+'@'+_0x3a55ca+':'+_0x572055+'/?'+encodeURIComponent(_0x5ba02e)+'#'+_0x10eaac;}}}}}_0x235b25&&_0xd25231[_0x58fc17(0x279)](_0x235b25);}),_0xd25231['join']('\x0a');}function _0x261b7a(_0x5eff66,_0x239b80){const _0x58167=_0x4b4e44,_0x5d3867=_0x31ba01['classList'][_0x58167(0x1ef)]('active');return _0x1d0d70(_0x5eff66,_0x5d3867);}function _0x2d22fa(_0x332d91){const _0x44ec97=_0x4b4e44;try{if(_0x332d91['startsWith'](_0x44ec97(0x1ea)))return _0x1935da(_0x332d91);else{if(_0x332d91[_0x44ec97(0x1cb)](_0x44ec97(0x1e0)))return _0x53d721(_0x332d91);else{if(_0x332d91[_0x44ec97(0x1cb)](_0x44ec97(0x21e)))return _0x4eef66(_0x332d91);else{if(_0x332d91['startsWith'](_0x44ec97(0x1f9)))return _0x24c4b6(_0x332d91);else throw new Error('Unsupported\x20protocol\x20in\x20link:\x20'+_0x332d91);}}}}catch(_0x3e406a){console[_0x44ec97(0x269)]('Error\x20parsing\x20link:',_0x3e406a);throw new Error('Failed\x20to\x20parse\x20link:\x20'+_0x332d91);}}function _0x1935da(_0x5d4886){const _0x4bcfc1=_0x4b4e44,_0x5036b8=_0x5d4886['replace'](_0x4bcfc1(0x1ea),'');let _0x28904c;try{const _0x5a8d94=atob(_0x5036b8);_0x28904c=JSON['parse'](_0x5a8d94);}catch(_0x33405b){throw new Error(_0x4bcfc1(0x274));}return{'type':_0x4bcfc1(0x23c),'name':_0x28904c['ps']||'VMess\x20Server','server':_0x28904c['add'],'port':Number[_0x4bcfc1(0x216)](_0x28904c[_0x4bcfc1(0x21d)]),'uuid':_0x28904c['id'],'alterId':Number[_0x4bcfc1(0x216)](_0x28904c['aid']||'0'),'cipher':_0x28904c[_0x4bcfc1(0x1f5)]||'auto','tls':_0x28904c[_0x4bcfc1(0x204)]===_0x4bcfc1(0x204),'network':_0x28904c[_0x4bcfc1(0x238)]||_0x4bcfc1(0x1ca),'wsPath':_0x28904c[_0x4bcfc1(0x23a)]||'','wsHost':_0x28904c[_0x4bcfc1(0x1db)]||'','sni':_0x28904c[_0x4bcfc1(0x223)]||_0x28904c[_0x4bcfc1(0x25d)],'skipCertVerify':!![]};}function _0x53d721(_0x23d22a){const _0x3544ff=_0x4b4e44;try{const _0x9bc859=_0x23d22a['replace']('vless://',''),[_0x113167,_0x42b619]=_0x9bc859[_0x3544ff(0x272)]('@'),[_0xd328b9,_0x104f72]=_0x42b619[_0x3544ff(0x272)]('?'),[_0x5d60ef,_0x5b72b0]=_0xd328b9[_0x3544ff(0x272)](':'),_0x1a5050={};let _0x166236='';if(_0x104f72){const [_0x28891a,_0x210969]=_0x104f72[_0x3544ff(0x272)]('#');_0x166236=_0x210969?decodeURIComponent(_0x210969):'VLESS\x20Server',_0x28891a['split']('&')[_0x3544ff(0x27b)](_0x3a7242=>{const _0x157407=_0x3544ff,[_0x46b9fd,_0x551b30]=_0x3a7242[_0x157407(0x272)]('=');_0x1a5050[_0x46b9fd]=_0x551b30?decodeURIComponent(_0x551b30):'';});}return{'type':_0x3544ff(0x211),'name':_0x166236,'server':_0x5d60ef,'port':Number[_0x3544ff(0x216)](_0x5b72b0),'uuid':_0x113167,'tls':_0x1a5050[_0x3544ff(0x26d)]==='tls','network':_0x1a5050['type']||_0x3544ff(0x1ca),'wsPath':_0x1a5050[_0x3544ff(0x23a)]||'','wsHost':_0x1a5050['host']||'','sni':_0x1a5050[_0x3544ff(0x223)]||_0x5d60ef,'skipCertVerify':!![]};}catch(_0xed28df){throw new Error(_0x3544ff(0x1e8));}}function _0x4eef66(_0xcee6c1){const _0x28854e=_0x4b4e44;try{const _0x3a4ec6=_0xcee6c1['replace']('trojan://',''),[_0x3d281b,_0x2f0630]=_0x3a4ec6[_0x28854e(0x272)]('@'),[_0x26fb95,_0x42c302]=_0x2f0630['split']('?'),[_0x5e53bc,_0x2c79fc]=_0x26fb95[_0x28854e(0x272)](':'),_0x4c1635={};let _0x2144c0='';if(_0x42c302){const [_0x46dd03,_0x2072f5]=_0x42c302[_0x28854e(0x272)]('#');_0x2144c0=_0x2072f5?decodeURIComponent(_0x2072f5):'Trojan\x20Server',_0x46dd03[_0x28854e(0x272)]('&')[_0x28854e(0x27b)](_0x47925b=>{const [_0x4a4e47,_0x3d8bc3]=_0x47925b['split']('=');_0x4c1635[_0x4a4e47]=_0x3d8bc3?decodeURIComponent(_0x3d8bc3):'';});}return{'type':_0x28854e(0x23f),'name':_0x2144c0,'server':_0x5e53bc,'port':Number['parseInt'](_0x2c79fc),'password':_0x3d281b,'tls':_0x4c1635['security']==='tls'||!![],'network':_0x4c1635[_0x28854e(0x24d)]||_0x28854e(0x1ca),'wsPath':_0x4c1635[_0x28854e(0x23a)]||'','wsHost':_0x4c1635['host']||'','sni':_0x4c1635[_0x28854e(0x223)]||_0x5e53bc,'skipCertVerify':!![]};}catch(_0x41f3d5){throw new Error(_0x28854e(0x24c));}}function _0x24c4b6(_0xfd20e0){const _0x1608b4=_0x4b4e44;try{const _0x1155ea=_0xfd20e0[_0x1608b4(0x22b)](_0x1608b4(0x1f9),'');let _0x1a8580,_0x9d37e,_0x561d2e,_0x2c9360={};if(_0x1155ea[_0x1608b4(0x265)]('@')){const [_0x2dbd5b,_0x260c1a]=_0x1155ea[_0x1608b4(0x272)]('@');let _0x19a4c7,_0x3723f8;if(_0x260c1a[_0x1608b4(0x265)]('?')){const [_0x3ab3e5,_0x1539b8]=_0x260c1a[_0x1608b4(0x272)]('?');_0x19a4c7=_0x3ab3e5;if(_0x1539b8){const [_0xb5003,_0x3db503]=_0x1539b8[_0x1608b4(0x272)]('#');_0x561d2e=_0x3db503?decodeURIComponent(_0x3db503):'SS\x20Server',_0xb5003['split']('&')[_0x1608b4(0x27b)](_0x175b25=>{const _0x54fdc1=_0x1608b4,[_0x573650,_0x3277f1]=_0x175b25[_0x54fdc1(0x272)]('=');_0x2c9360[_0x573650]=_0x3277f1?decodeURIComponent(_0x3277f1):'';});}}else{const [_0x2e389c,_0x16f93d]=_0x260c1a[_0x1608b4(0x272)]('#');_0x19a4c7=_0x2e389c,_0x561d2e=_0x16f93d?decodeURIComponent(_0x16f93d):_0x1608b4(0x1f4);}try{_0x1a8580=atob(_0x2dbd5b);}catch(_0x34d561){_0x1a8580=decodeURIComponent(_0x2dbd5b);}_0x9d37e=_0x19a4c7;}else{const [_0x3cd377,_0x4fa462]=_0x1155ea[_0x1608b4(0x272)]('#'),_0x299106=atob(_0x3cd377),_0x5c4683=_0x299106[_0x1608b4(0x28d)]('@');_0x1a8580=_0x299106[_0x1608b4(0x273)](0x0,_0x5c4683),_0x9d37e=_0x299106['substring'](_0x5c4683+0x1),_0x561d2e=_0x4fa462?decodeURIComponent(_0x4fa462):_0x1608b4(0x1f4);}const [_0xfedf39,_0x59e76b]=_0x1a8580[_0x1608b4(0x272)](':'),[_0x44f40f,_0x570d92]=_0x9d37e['split'](':');return{'type':'ss','name':_0x561d2e,'server':_0x44f40f,'port':Number[_0x1608b4(0x216)](_0x570d92),'cipher':_0xfedf39,'password':_0x59e76b,'udp':![],'tls':_0x2c9360[_0x1608b4(0x26d)]===_0x1608b4(0x204),'wsPath':_0x2c9360[_0x1608b4(0x23a)]||'','wsHost':_0x2c9360['host']||_0x44f40f,'sni':_0x2c9360['sni']||_0x44f40f,'skipCertVerify':!![]};}catch(_0x3e70b5){console[_0x1608b4(0x269)](_0x1608b4(0x1b9),_0x3e70b5);throw new Error('Invalid\x20Shadowsocks\x20link\x20format');}}function _0x1b253b(_0x5d0b1f,_0x38a3b4=![],_0x48015e={}){const _0xf3578c=_0x4b4e44,{useFakeIp:useFakeIp=!![],useBestPing:useBestPing=!![],useLoadBalance:useLoadBalance=![],useFallback:useFallback=![],useAllGroups:useAllGroups=![],useAdsBlock:useAdsBlock=!![],usePornBlock:usePornBlock=!![]}=_0x48015e;let _0x495cfb=_0xf3578c(0x254)+new Date()[_0xf3578c(0x1fa)]()+'\x0a\x0a';_0x38a3b4&&(_0x495cfb+='port:\x207890\x0asocks-port:\x207891\x0aallow-lan:\x20true\x0amode:\x20rule\x0alog-level:\x20info\x0aexternal-controller:\x20127.0.0.1:9090\x0adns:\x0a\x20\x20enable:\x20true\x0a\x20\x20listen:\x200.0.0.0:53\x0a\x20\x20'+(useFakeIp?_0xf3578c(0x1be):_0xf3578c(0x257))+'\x0a\x20\x20nameserver:\x0a\x20\x20\x20\x20-\x208.8.8.8\x0a\x20\x20\x20\x20-\x201.1.1.1\x0a\x20\x20\x20\x20-\x20https://dns.cloudflare.com/dns-query\x0a\x20\x20fallback:\x0a\x20\x20\x20\x20-\x201.0.0.1\x0a\x20\x20\x20\x20-\x208.8.4.4\x0a\x20\x20\x20\x20-\x20https://dns.google/dns-query\x0a\x0a',(useAdsBlock||usePornBlock)&&(_0x495cfb+=_0xf3578c(0x1fd),useAdsBlock&&(_0x495cfb+=_0xf3578c(0x25a)),usePornBlock&&(_0x495cfb+=_0xf3578c(0x224))));_0x495cfb+=_0xf3578c(0x282),_0x5d0b1f['forEach']((_0x15169f,_0x2c2eb7)=>{const _0x279fb6=_0xf3578c;_0x495cfb+='\x0a';if(_0x15169f[_0x279fb6(0x24d)]===_0x279fb6(0x23c))_0x495cfb+='\x20\x20-\x20name:\x20\x22['+(_0x2c2eb7+0x1)+']-'+_0x15169f['name']+_0x279fb6(0x24e)+_0x15169f['server']+_0x279fb6(0x1e1)+_0x15169f[_0x279fb6(0x21d)]+_0x279fb6(0x27d)+_0x15169f['uuid']+_0x279fb6(0x263)+(_0x15169f[_0x279fb6(0x225)]||0x0)+_0x279fb6(0x24b)+(_0x15169f['cipher']||'auto')+_0x279fb6(0x26f)+_0x15169f[_0x279fb6(0x204)]+_0x279fb6(0x1af)+(_0x15169f[_0x279fb6(0x1c3)]||!![])+'\x0a',_0x15169f[_0x279fb6(0x25b)]==='ws'&&(_0x495cfb+=_0x279fb6(0x1b0)+(_0x15169f[_0x279fb6(0x1bb)]||'')+'\x0a',_0x15169f[_0x279fb6(0x214)]&&(_0x495cfb+='\x20\x20\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20\x20\x20Host:\x20'+_0x15169f[_0x279fb6(0x214)]+'\x0a')),_0x15169f[_0x279fb6(0x204)]&&_0x15169f['sni']&&(_0x495cfb+='\x20\x20\x20\x20servername:\x20'+_0x15169f[_0x279fb6(0x223)]+'\x0a');else{if(_0x15169f[_0x279fb6(0x24d)]===_0x279fb6(0x211))_0x495cfb+='\x20\x20-\x20name:\x20\x22['+(_0x2c2eb7+0x1)+']-'+_0x15169f[_0x279fb6(0x28a)]+_0x279fb6(0x1d4)+_0x15169f[_0x279fb6(0x1b3)]+'\x0a\x20\x20\x20\x20port:\x20'+_0x15169f[_0x279fb6(0x21d)]+_0x279fb6(0x27d)+_0x15169f[_0x279fb6(0x1b8)]+_0x279fb6(0x26f)+_0x15169f[_0x279fb6(0x204)]+'\x0a\x20\x20\x20\x20skip-cert-verify:\x20'+(_0x15169f[_0x279fb6(0x1c3)]||!![])+'\x0a',_0x15169f['network']==='ws'&&(_0x495cfb+=_0x279fb6(0x1b0)+(_0x15169f['wsPath']||'')+'\x0a',_0x15169f[_0x279fb6(0x214)]&&(_0x495cfb+='\x20\x20\x20\x20\x20\x20headers:\x0a\x20\x20\x20\x20\x20\x20\x20\x20Host:\x20'+_0x15169f['wsHost']+'\x0a')),_0x15169f['tls']&&_0x15169f[_0x279fb6(0x223)]&&(_0x495cfb+=_0x279fb6(0x202)+_0x15169f[_0x279fb6(0x223)]+'\x0a');else{if(_0x15169f[_0x279fb6(0x24d)]==='trojan')_0x495cfb+='\x20\x20-\x20name:\x20\x22['+(_0x2c2eb7+0x1)+']-'+_0x15169f[_0x279fb6(0x28a)]+_0x279fb6(0x275)+_0x15169f[_0x279fb6(0x1b3)]+_0x279fb6(0x1e1)+_0x15169f[_0x279fb6(0x21d)]+'\x0a\x20\x20\x20\x20password:\x20'+_0x15169f[_0x279fb6(0x271)]+'\x0a\x20\x20\x20\x20udp:\x20true\x0a\x20\x20\x20\x20skip-cert-verify:\x20'+(_0x15169f['skipCertVerify']||!![])+'\x0a',_0x15169f[_0x279fb6(0x25b)]==='ws'&&(_0x495cfb+=_0x279fb6(0x1b0)+(_0x15169f[_0x279fb6(0x1bb)]||'')+'\x0a',_0x15169f['wsHost']&&(_0x495cfb+=_0x279fb6(0x1ff)+_0x15169f[_0x279fb6(0x214)]+'\x0a')),_0x15169f[_0x279fb6(0x223)]&&(_0x495cfb+=_0x279fb6(0x286)+_0x15169f[_0x279fb6(0x223)]+'\x0a');else _0x15169f['type']==='ss'&&(_0x495cfb+=_0x279fb6(0x231)+(_0x2c2eb7+0x1)+']-'+_0x15169f[_0x279fb6(0x28a)]+_0x279fb6(0x227)+_0x15169f[_0x279fb6(0x1b3)]+_0x279fb6(0x1e1)+_0x15169f['port']+'\x0a\x20\x20\x20\x20type:\x20ss\x0a\x20\x20\x20\x20cipher:\x20'+(_0x15169f[_0x279fb6(0x240)]||_0x279fb6(0x232))+_0x279fb6(0x1f3)+_0x15169f[_0x279fb6(0x271)]+_0x279fb6(0x1e9)+(_0x15169f[_0x279fb6(0x214)]||_0x15169f[_0x279fb6(0x1b3)])+_0x279fb6(0x203)+(_0x15169f[_0x279fb6(0x1bb)]||'')+'\x0a\x20\x20\x20\x20\x20\x20tls:\x20'+_0x15169f['tls']+_0x279fb6(0x1c5));}}});if(_0x38a3b4){const _0x217091=_0x5d0b1f[_0xf3578c(0x250)]((_0x2806b5,_0x38adaf)=>_0x2806b5[_0xf3578c(0x28a)]);_0x495cfb+=_0xf3578c(0x20c);if(useBestPing)_0x495cfb+=_0xf3578c(0x27c);if(useLoadBalance)_0x495cfb+=_0xf3578c(0x22a);if(useFallback)_0x495cfb+='\x20\x20\x20\x20\x20\x20-\x20FALLBACK\x0a';_0x495cfb+='\x20\x20\x20\x20\x20\x20-\x20DIRECT\x0a\x20\x20\x20\x20\x20\x20-\x20REJECT\x0a',_0x495cfb+=_0xf3578c(0x1f2),_0x5d0b1f[_0xf3578c(0x27b)]((_0x2e7465,_0x19710e)=>{const _0x428e4f=_0xf3578c;_0x495cfb+=_0x428e4f(0x235)+(_0x19710e+0x1)+']-'+_0x2e7465['name']+'\x22\x0a';});useBestPing&&(_0x495cfb+='\x0a\x20\x20-\x20name:\x20\x22BEST-PING\x22\x0a\x20\x20\x20\x20type:\x20url-test\x0a\x20\x20\x20\x20url:\x20http://www.gstatic.com/generate_204\x0a\x20\x20\x20\x20interval:\x20300\x0a\x20\x20\x20\x20tolerance:\x2050\x0a\x20\x20\x20\x20proxies:\x0a',_0x5d0b1f['forEach']((_0x1f2757,_0x599bc7)=>{const _0x220082=_0xf3578c;_0x495cfb+='\x20\x20\x20\x20\x20\x20-\x20\x22['+(_0x599bc7+0x1)+']-'+_0x1f2757[_0x220082(0x28a)]+'\x22\x0a';}));useLoadBalance&&(_0x495cfb+=_0xf3578c(0x221),_0x5d0b1f[_0xf3578c(0x27b)]((_0x7b9e32,_0x48bb85)=>{const _0x2116f0=_0xf3578c;_0x495cfb+=_0x2116f0(0x235)+(_0x48bb85+0x1)+']-'+_0x7b9e32[_0x2116f0(0x28a)]+'\x22\x0a';}));useFallback&&(_0x495cfb+=_0xf3578c(0x246),_0x5d0b1f['forEach']((_0x376f14,_0x83c7f4)=>{const _0x1f32b0=_0xf3578c;_0x495cfb+=_0x1f32b0(0x235)+(_0x83c7f4+0x1)+']-'+_0x376f14[_0x1f32b0(0x28a)]+'\x22\x0a';}));if(useAdsBlock||usePornBlock){if(useAdsBlock){_0x495cfb+='\x0a\x20\x20-\x20name:\x20\x22ADS\x22\x0a\x20\x20\x20\x20type:\x20select\x0a\x20\x20\x20\x20proxies:\x0a\x20\x20\x20\x20\x20\x20-\x20REJECT\x0a\x20\x20\x20\x20\x20\x20-\x20DIRECT\x0a';if(useBestPing)_0x495cfb+=_0xf3578c(0x27c);if(useLoadBalance)_0x495cfb+='\x20\x20\x20\x20\x20\x20-\x20LOAD-BALANCE\x0a';if(useFallback)_0x495cfb+='\x20\x20\x20\x20\x20\x20-\x20FALLBACK\x0a';}if(usePornBlock){_0x495cfb+=_0xf3578c(0x1ce);if(useBestPing)_0x495cfb+='\x20\x20\x20\x20\x20\x20-\x20BEST-PING\x0a';if(useLoadBalance)_0x495cfb+=_0xf3578c(0x22a);if(useFallback)_0x495cfb+=_0xf3578c(0x213);}}_0x495cfb+=_0xf3578c(0x1d8),useAdsBlock&&(_0x495cfb+=_0xf3578c(0x1fc)),usePornBlock&&(_0x495cfb+='\x20\x20-\x20RULE-SET,🔞\x20Porn,PORN\x0a'),_0x495cfb+='\x20\x20-\x20IP-CIDR,192.168.0.0/16,DIRECT\x0a\x20\x20-\x20IP-CIDR,10.0.0.0/8,DIRECT\x0a\x20\x20-\x20IP-CIDR,172.16.0.0/12,DIRECT\x0a\x20\x20-\x20IP-CIDR,127.0.0.0/8,DIRECT\x0a\x20\x20-\x20MATCH,INCONIGTO-MODE';}return _0x495cfb;}function _0x444353(_0x8c31a7,_0xc9842b=!![]){const _0x45b4eb=_0x4b4e44,_0x4ff34b=document[_0x45b4eb(0x222)](_0x45b4eb(0x1ba))['classList']['contains']('active'),_0x26e55c=document[_0x45b4eb(0x222)](_0x45b4eb(0x1f7))[_0x45b4eb(0x283)][_0x45b4eb(0x1ef)](_0x45b4eb(0x285)),_0x2faa07=document[_0x45b4eb(0x222)]('fallback')[_0x45b4eb(0x283)][_0x45b4eb(0x1ef)](_0x45b4eb(0x285)),_0x422012=document[_0x45b4eb(0x222)](_0x45b4eb(0x1df))[_0x45b4eb(0x283)][_0x45b4eb(0x1ef)](_0x45b4eb(0x285));let _0x129394=_0x45b4eb(0x1b5);const _0x3dfdd8=[];(_0x4ff34b||_0x422012)&&_0x3dfdd8[_0x45b4eb(0x279)](_0x45b4eb(0x1e5));(_0x26e55c||_0x422012)&&_0x3dfdd8[_0x45b4eb(0x279)](_0x45b4eb(0x27f));(_0x2faa07||_0x422012)&&_0x3dfdd8[_0x45b4eb(0x279)](_0x45b4eb(0x200));_0x3dfdd8[_0x45b4eb(0x1bf)]===0x0&&_0x3dfdd8[_0x45b4eb(0x279)]('Best\x20Latency');_0x129394+=_0x45b4eb(0x220)+_0x3dfdd8[0x0]+_0x45b4eb(0x228);const _0x11170b=_0x8c31a7[_0x45b4eb(0x250)]((_0x19ba8a,_0x3acf9c)=>_0x45b4eb(0x220)+_0x19ba8a[_0x45b4eb(0x28a)]+'\x22,')[_0x45b4eb(0x212)]('\x0a');_0x129394+=_0x11170b+'\x0a',_0x129394+='\x20\x20\x20\x20\x20\x20\x20\x20\x22direct\x22\x0a\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22Internet\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22selector\x22\x0a\x20\x20\x20\x20},\x0a';(_0x4ff34b||_0x422012)&&(_0x129394+='\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22interval\x22:\x20\x221m0s\x22,\x0a\x20\x20\x20\x20\x20\x20\x22outbounds\x22:\x20[\x0a'+_0x11170b+_0x45b4eb(0x247));(_0x26e55c||_0x422012)&&(_0x129394+='\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22interval\x22:\x20\x221m0s\x22,\x0a\x20\x20\x20\x20\x20\x20\x22outbounds\x22:\x20[\x0a'+_0x11170b+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22direct\x22\x0a\x20\x20\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22Load\x20Balance\x22,\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22loadbalance\x22,\x0a\x20\x20\x20\x20\x20\x20\x22strategy\x22:\x20\x22round-robin\x22\x0a\x20\x20\x20\x20},\x0a');(_0x2faa07||_0x422012)&&(_0x129394+=_0x45b4eb(0x1d2)+_0x11170b+_0x45b4eb(0x1cc));const _0x219350=_0x8c31a7['map']((_0x363914,_0x349e0e)=>{const _0x42e539=_0x45b4eb;let _0x277ded='';if(_0x363914['type']==='vmess')_0x277ded=_0x42e539(0x259)+_0x363914['server']+_0x42e539(0x270)+_0x363914[_0x42e539(0x21d)]+','+(_0x363914[_0x42e539(0x204)]?_0x42e539(0x1f8)+(_0x363914[_0x42e539(0x223)]||_0x363914[_0x42e539(0x1b3)])+_0x42e539(0x1b6):'')+'\x0a\x20\x20\x20\x20\x20\x20\x22transport\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22headers\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22Host\x22:\x20\x22'+(_0x363914[_0x42e539(0x214)]||_0x363914['server'])+'\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22path\x22:\x20\x22'+_0x363914[_0x42e539(0x1bb)]+_0x42e539(0x25f)+_0x363914[_0x42e539(0x1b8)]+_0x42e539(0x21b)+_0x363914[_0x42e539(0x28a)]+_0x42e539(0x21f);else{if(_0x363914[_0x42e539(0x24d)]===_0x42e539(0x211))_0x277ded=_0x42e539(0x20a)+_0x363914[_0x42e539(0x1b3)]+_0x42e539(0x270)+_0x363914[_0x42e539(0x21d)]+_0x42e539(0x266)+_0x363914[_0x42e539(0x28a)]+'\x22,'+(_0x363914['tls']?_0x42e539(0x1f8)+(_0x363914[_0x42e539(0x223)]||_0x363914['server'])+_0x42e539(0x1b6):'')+_0x42e539(0x219)+(_0x363914[_0x42e539(0x214)]||_0x363914[_0x42e539(0x1b3)])+_0x42e539(0x24a)+_0x363914['wsPath']+'\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22ws\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22vless\x22,\x0a\x20\x20\x20\x20\x20\x20\x22uuid\x22:\x20\x22'+_0x363914[_0x42e539(0x1b8)]+_0x42e539(0x21f);else{if(_0x363914[_0x42e539(0x24d)]===_0x42e539(0x23f))_0x277ded='\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22domain_strategy\x22:\x20\x22ipv4_only\x22,\x0a\x20\x20\x20\x20\x20\x20\x22multiplex\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22enabled\x22:\x20false,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22max_streams\x22:\x2032,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22protocol\x22:\x20\x22smux\x22\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20\x22password\x22:\x20\x22'+_0x363914[_0x42e539(0x271)]+_0x42e539(0x256)+_0x363914['server']+_0x42e539(0x270)+_0x363914[_0x42e539(0x21d)]+_0x42e539(0x266)+_0x363914[_0x42e539(0x28a)]+'\x22,'+(_0x363914[_0x42e539(0x204)]?_0x42e539(0x1f8)+(_0x363914[_0x42e539(0x223)]||_0x363914[_0x42e539(0x1b3)])+_0x42e539(0x1b6):'')+'\x0a\x20\x20\x20\x20\x20\x20\x22transport\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22early_data_header_name\x22:\x20\x22Sec-WebSocket-Protocol\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22headers\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22Host\x22:\x20\x22'+(_0x363914[_0x42e539(0x214)]||_0x363914[_0x42e539(0x1b3)])+_0x42e539(0x24a)+_0x363914[_0x42e539(0x1bb)]+_0x42e539(0x28c);else _0x363914[_0x42e539(0x24d)]==='ss'&&(_0x277ded='\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22type\x22:\x20\x22shadowsocks\x22,\x0a\x20\x20\x20\x20\x20\x20\x22tag\x22:\x20\x22'+_0x363914[_0x42e539(0x28a)]+_0x42e539(0x256)+_0x363914[_0x42e539(0x1b3)]+'\x22,\x0a\x20\x20\x20\x20\x20\x20\x22server_port\x22:\x20'+_0x363914[_0x42e539(0x21d)]+_0x42e539(0x1fb)+_0x363914[_0x42e539(0x271)]+_0x42e539(0x1e2)+_0x363914['wsPath']+_0x42e539(0x237)+(_0x363914['wsHost']||_0x363914[_0x42e539(0x1b3)])+';tls='+(_0x363914[_0x42e539(0x204)]?'1':'0')+_0x42e539(0x21f));}}return _0x277ded;})['join'](',\x0a');return _0x129394+=_0x219350,_0x129394+=_0x45b4eb(0x1eb),_0x129394;}function _0x130fde(){const _0x19d96e=_0x4b4e44,_0x11396e=document['getElementById'](_0x19d96e(0x1bd)),_0x39641f=document['querySelector']('.format-btn.active')['id'];_0x39641f===_0x19d96e(0x26b)?_0x11396e[_0x19d96e(0x28e)][_0x19d96e(0x289)]='block':_0x11396e['style'][_0x19d96e(0x289)]=_0x19d96e(0x232);}_0x28961b[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x42a5be=_0x4b4e44;_0x28961b['classList'][_0x42a5be(0x25d)](_0x42a5be(0x285)),_0x17b8bf['classList'][_0x42a5be(0x249)](_0x42a5be(0x285)),_0x130fde(),_0x7239c9();}),_0x17b8bf[_0x4b4e44(0x276)](_0x4b4e44(0x1e6),()=>{const _0x4196c0=_0x4b4e44;_0x17b8bf[_0x4196c0(0x283)][_0x4196c0(0x25d)](_0x4196c0(0x285)),_0x28961b[_0x4196c0(0x283)]['remove'](_0x4196c0(0x285)),_0x130fde(),_0x7239c9();}),document[_0x4b4e44(0x276)](_0x4b4e44(0x1c4),()=>{const _0x1f91bb=_0x4b4e44,_0x10e9a8=document[_0x1f91bb(0x222)](_0x1f91bb(0x26b)),_0x5b04ab=document[_0x1f91bb(0x222)]('nekobox-format');_0x10e9a8&&_0x5b04ab&&(_0x10e9a8[_0x1f91bb(0x276)](_0x1f91bb(0x1e6),()=>{_0x130fde();}),_0x5b04ab[_0x1f91bb(0x276)](_0x1f91bb(0x1e6),()=>{_0x130fde();})),document['getElementById']('clash-format')[_0x1f91bb(0x283)][_0x1f91bb(0x1ef)](_0x1f91bb(0x285))?document[_0x1f91bb(0x222)](_0x1f91bb(0x1bd))[_0x1f91bb(0x28e)][_0x1f91bb(0x289)]='block':document[_0x1f91bb(0x222)](_0x1f91bb(0x1bd))[_0x1f91bb(0x28e)][_0x1f91bb(0x289)]=_0x1f91bb(0x232);});}));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFRCloud - NET || Converter</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://raw.githubusercontent.com/AFRcloud/BG/main/icons8-film-noir-80.png">
+
+    <!-- Meta tags -->
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/akulelaki696/bg/refs/heads/main/20250106_010158.jpg"/>
+    <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)"/>
+    <meta name="theme-color" content="#f8f9fa" media="(prefers-color-scheme: light)"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/converter.css">
+    <style>
+    /* Common CSS styles shared across all pages */
+:root {
+  /* Color variables */
+  --primary: #6a11cb;
+  --primary-dark: #4f46e5;
+  --primary-light: #a0a0ff;
+  --secondary: #2575fc;
+  --secondary-dark: #1e40af;
+  --accent: #ff6b6b;
+  --dark: #0f0c29;
+  --dark-light: #302b63;
+  --light: #ffffff;
+  --gray: #64748b;
+  --gray-light: #a0a0ff;
+  --gray-dark: #334155;
+  --primary-color: #6a11cb;
+  --secondary-color: #2575fc;
+  --accent-color: #ff6b6b;
+  --dark-bg: #0f0c29;
+  --dark-bg-gradient-1: #302b63;
+  --dark-bg-gradient-2: #24243e;
+  --card-bg: rgba(15, 14, 32, 0.8);
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0ff;
+  --text-muted: rgba(255, 255, 255, 0.5);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --success-color: #38ef7d;
+
+  /* Common UI elements */
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 16px;
+  --border-radius-full: 9999px;
+
+  /* Shadows and effects */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --glow-primary: 0 0 10px rgba(106, 17, 203, 0.5), 0 0 20px rgba(106, 17, 203, 0.2);
+  --glow-secondary: 0 0 15px rgba(37, 117, 252, 0.5);
+
+  /* Animations */
+  --transition-normal: all 0.3s ease;
+  --transition-slow: all 0.5s ease;
+}
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: linear-gradient(135deg, var(--dark-bg), var(--dark-bg-gradient-1), var(--dark-bg-gradient-2));
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 30%, rgba(106, 17, 203, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(37, 117, 252, 0.15) 0%, transparent 40%);
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Common components */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: var(--border-radius-md);
+  font-weight: 600;
+  transition: var(--transition-normal);
+  text-align: center;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Navigation buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  background: rgba(106, 17, 203, 0.1);
+  border: 1px solid rgba(106, 17, 203, 0.2);
+  color: var(--text-secondary);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-button:hover {
+  background: rgba(106, 17, 203, 0.2);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--glow-primary);
+}
+
+.nav-button.active {
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  border: none;
+  box-shadow: var(--glow-primary);
+}
+
+.nav-highlight {
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  padding: 5px 12px;
+  border-radius: 20px;
+  color: white !important;
+  box-shadow: 0 3px 10px rgba(106, 17, 203, 0.3);
+}
+
+.nav-highlight:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+}
+
+.nav-highlight::after {
+  display: none;
+}
+
+/* Donation modal */
+.donation-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.donation-modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.donation-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+}
+
+.donation-content {
+  position: relative;
+  background: linear-gradient(to bottom right, #1e1e3f, #0f0c29);
+  border-radius: var(--border-radius-lg);
+  padding: 1px;
+  max-width: 90%;
+  width: 400px;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.donation-modal.active .donation-content {
+  transform: scale(1);
+}
+
+.donation-border {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.donation-border-animation {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color), var(--primary-color));
+  animation: rotate 8s linear infinite;
+  opacity: 0.7;
+}
+
+.donation-body {
+  position: relative;
+  background: var(--dark-bg);
+  border-radius: calc(var(--border-radius-lg) - 1px);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-donation {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--border-radius-full);
+  transition: var(--transition-normal);
+}
+
+.close-donation:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(90deg);
+}
+
+.donation-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.donation-text {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.donation-small-text {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.qris-container {
+  position: relative;
+  padding: 3px;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+}
+
+.qris-border {
+  position: absolute;
+  inset: 0;
+}
+
+.qris-border-animation {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color), var(--primary-color));
+  animation: pulse 2s infinite;
+  opacity: 0.7;
+  border-radius: var(--border-radius-md);
+}
+
+.qris-image-container {
+  position: relative;
+  background: white;
+  padding: 10px;
+  border-radius: calc(var(--border-radius-md) - 2px);
+}
+
+.qris-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Animations */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .nav-buttons {
+    gap: 8px;
+  }
+
+  .nav-button {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+
+  .nav-highlight {
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 480px) {
+  .donation-content {
+    width: 90%;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+
+  .nav-buttons {
+    gap: 5px;
+  }
+
+  .nav-button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Current year script support */
+#current-year {
+  display: inline;
+}
+
+/* Floating Donation Button */
+.donate-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 0 5px 20px rgba(106, 17, 203, 0.5);
+  cursor: pointer;
+  z-index: 100;
+  transition: all 0.3s ease;
+  animation: pulse-donate 2s infinite;
+}
+
+@keyframes pulse-donate {
+  0% {
+    box-shadow: 0 0 0 0 rgba(106, 17, 203, 0.7);
+    transform: scale(1);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(106, 17, 203, 0);
+    transform: scale(1.05);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(106, 17, 203, 0);
+    transform: scale(1);
+  }
+}
+
+.donate-btn:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .donate-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-buttons {
+    gap: 5px;
+  }
+
+  .nav-button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+}
+
+        /* Basic styling for the new input field */
+        .converter-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #1a1a1a;
+            color: #eee;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            box-sizing: border-box; /* Ensure padding doesn't increase width */
+        }
+        /* Converter page specific styles */
+:root {
+  --primary: #6a11cb;
+  --primary-dark: #4f46e5;
+  --primary-light: #a0a0ff;
+  --secondary: #2575fc;
+  --secondary-dark: #1e40af;
+  --accent: #ff6b6b;
+  --dark: #0f0c29;
+  --dark-light: #302b63;
+  --light: #ffffff;
+  --gray: #64748b;
+  --gray-light: #a0a0ff;
+  --gray-dark: #334155;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: var(--light);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow-x: hidden;
+  padding: 1rem 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 30%, rgba(106, 17, 203, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(37, 117, 252, 0.15) 0%, transparent 40%);
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  padding: 0 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: rgba(15, 14, 32, 0.8);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(106, 17, 203, 0.1);
+  width: 100%;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent));
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(106, 17, 203, 0.5), rgba(37, 117, 252, 0.5), rgba(255, 107, 107, 0.5));
+  filter: blur(1px);
+}
+
+.title-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.title {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin: 0;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: inline-block;
+}
+
+.title::after {
+  content: "Convert";
+  position: absolute;
+  top: -8px;
+  right: -60px;
+  font-size: 0.7rem;
+  font-weight: 400;
+  background: var(--accent);
+  color: var(--dark);
+  padding: 2px 5px;
+  border-radius: 3px;
+  -webkit-text-fill-color: var(--dark);
+  transform: rotate(15deg);
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: var(--gray-light);
+  margin-top: 0.3rem;
+}
+
+/* Cyberpunk details */
+.tech-detail {
+  position: absolute;
+  background: var(--primary);
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.tech-detail-1 {
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px var(--primary);
+}
+
+.tech-detail-2 {
+  width: 80px;
+  height: 2px;
+  bottom: 40px;
+  left: -20px;
+  transform: rotate(45deg);
+}
+
+.tech-detail-3 {
+  width: 15px;
+  height: 15px;
+  bottom: 20px;
+  right: 40px;
+  transform: rotate(45deg);
+}
+
+/* Converter specific styles */
+.converter-container {
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.direction-selector {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.direction-btn {
+  background: rgba(106, 17, 203, 0.1);
+  border: 1px solid rgba(106, 17, 203, 0.2);
+  color: var(--gray-light);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.direction-btn:hover {
+  background: rgba(106, 17, 203, 0.2);
+  color: var(--light);
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(106, 17, 203, 0.3);
+}
+
+.direction-btn.active {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  color: white;
+  border: none;
+  box-shadow: 0 0 10px rgba(106, 17, 203, 0.3);
+}
+
+.converter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.converter-section.hidden {
+  display: none;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--light);
+}
+
+.converter-textarea {
+  width: 100%;
+  min-height: 150px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(106, 17, 203, 0.2);
+  border-radius: 8px;
+  color: var(--light);
+  padding: 0.8rem;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.85rem;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+.converter-textarea2 {
+  width: 100%;
+  min-height: 150px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(106, 17, 203, 0.2);
+  border-radius: 8px;
+  color: var(--light);
+  padding: 0.8rem;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.85rem;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+.converter-textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(106, 17, 203, 0.25);
+  background: rgba(15, 23, 42, 0.8);
+}
+
+.converter-textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.converter-textarea2:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(106, 17, 203, 0.25);
+  background: rgba(15, 23, 42, 0.8);
+}
+
+.converter-textarea2::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.result-textarea {
+  background: rgba(15, 23, 42, 0.8);
+  border-color: rgba(106, 17, 203, 0.3);
+}
+
+.format-selector {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.format-btn {
+  flex: 1;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(106, 17, 203, 0.2);
+  color: var(--gray-light);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.format-btn:hover {
+  background: rgba(15, 23, 42, 0.8);
+  color: var(--light);
+}
+
+.format-btn.active {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  color: white;
+  border: none;
+}
+
+.option-group {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.option-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--gray-light);
+}
+
+.option-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.option-btn {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(106, 17, 203, 0.2);
+  color: var(--gray-light);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.option-btn:hover {
+  background: rgba(15, 23, 42, 0.8);
+  color: var(--light);
+}
+
+.option-btn.active {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  color: white;
+  border: none;
+}
+
+.config-type-selector {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.convert-btn {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.convert-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: 0.5s;
+}
+
+.convert-btn:hover::before {
+  left: 100%;
+}
+
+.convert-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy-btn {
+  background: rgba(106, 17, 203, 0.1);
+  border: 1px solid rgba(106, 17, 203, 0.2);
+  color: var(--gray-light);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.copy-btn:hover {
+  background: rgba(106, 17, 203, 0.2);
+  color: var(--light);
+}
+
+.result-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.download-btn {
+  background: rgba(37, 117, 252, 0.1);
+  border: 1px solid rgba(37, 117, 252, 0.2);
+  color: var(--secondary);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.download-btn:hover {
+  background: rgba(37, 117, 252, 0.2);
+  color: var(--light);
+}
+
+/* Toast notification for download success */
+.toast-notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(16, 185, 129, 0.9);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.toast-notification.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast-notification i {
+  font-size: 1.2rem;
+}
+
+.loading-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 14, 32, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.loading-indicator.hidden {
+  display: none;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(106, 17, 203, 0.3);
+  border-radius: 50%;
+  border-top-color: var(--primary);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error-message {
+  background: rgba(239, 68, 68, 0.2);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #f87171;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.error-message.hidden {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+  }
+
+  .direction-selector {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .direction-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .converter-textarea {
+    min-height: 120px;
+  }
+    .converter-textarea2 {
+    min-height: 10px;
+  }
+
+  .option-selector {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .option-btn {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+/* Footer styles */
+.footer {
+  width: 100%;
+  max-width: 480px;
+  background: rgba(15, 14, 32, 0.8);
+  border-radius: 12px;
+  padding: 1.2rem;
+  position: relative;
+  border: 1px solid rgba(106, 17, 203, 0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 0.75rem;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent));
+}
+
+.footer::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(106, 17, 203, 0.5), rgba(37, 117, 252, 0.5), rgba(255, 107, 107, 0.5));
+  filter: blur(1px);
+}
+
+.footer-logo {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-powered {
+  font-size: 0.8rem;
+  color: var(--gray-light);
+  margin-bottom: 0.6rem;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  color: var(--primary);
+  text-decoration: none;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  background: rgba(106, 17, 203, 0.05);
+  border: 1px solid rgba(106, 17, 203, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.social-link:hover {
+  background: rgba(106, 17, 203, 0.1);
+  box-shadow: var(--glow-primary);
+  transform: translateY(-2px);
+}
+
+.social-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.footer-year {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-top: 0.4rem;
+  letter-spacing: 1px;
+}
+
+.circuit-line {
+  position: absolute;
+  background: var(--primary);
+  opacity: 0.1;
+}
+
+.circuit-line-1 {
+  width: 60px;
+  height: 1px;
+  top: 20px;
+  left: 20px;
+}
+
+.circuit-line-2 {
+  width: 1px;
+  height: 30px;
+  top: 20px;
+  left: 20px;
+}
+
+.circuit-line-3 {
+  width: 40px;
+  height: 1px;
+  bottom: 25px;
+  right: 30px;
+}
+
+.circuit-line-4 {
+  width: 1px;
+  height: 25px;
+  bottom: 25px;
+  right: 30px;
+}
+
+.circuit-dot {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--primary);
+  opacity: 0.2;
+}
+
+.circuit-dot-1 {
+  top: 20px;
+  left: 20px;
+}
+
+.circuit-dot-2 {
+  top: 50px;
+  left: 20px;
+}
+
+.circuit-dot-3 {
+  bottom: 25px;
+  right: 30px;
+}
+
+.circuit-dot-4 {
+  bottom: 50px;
+  right: 30px;
+}
+
+    </style>
+
+    <!-- js-yaml for robust YAML parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="tech-detail tech-detail-1"></div>
+            <div class="tech-detail tech-detail-2"></div>
+            <div class="tech-detail tech-detail-3"></div>
+
+            <div class="title-container">
+                <h1 class="title">AFRCloud - NET</h1>
+                <p class="subtitle">V2Ray ↔ Clash Converter</p>
+            </div>
+
+            <div class="converter-container">
+                <!-- V2Ray to Config Section -->
+                <div id="v2ray-to-config-section" class="converter-section">
+                    <div class="form-group">
+                        <label for="v2ray-input">V2Ray Links (vmess://, vless://, trojan://, ss://)</label>
+                        <textarea id="v2ray-input" class="converter-textarea" placeholder="Paste your V2Ray links here, one per line..."></textarea>
+                    </div>
+
+                    <!-- New: Custom Server / Bug Option -->
+                    <div class="form-group">
+                        <label>Custom Server / Bug</label>
+                        <div class="option-selector">
+                            <button id="custom-server-toggle" class="option-btn">Enable Custom Server</button>
+                        </div>
+                    </div>
+                    <div class="form-group" id="custom-server-input-container" style="margin-top: 1rem; display: none;">
+                        <label for="custom-server-input">Custom Server/Bug Host</label>
+                        <input type="text" id="custom-server-input" class="converter-textarea2"" placeholder="Enter custom server or bug host (e.g., example.com)">
+
+                        <!-- New: Wildcard/Non-Wildcard Toggle -->
+                        <div class="option-group" id="wildcard-mode-selector" style="margin-top: 1rem;">
+                            <label class="option-label">SNI/WS Host Mode:</label>
+                            <div class="option-selector">
+                                <button id="non-wildcard-btn" class="option-btn active">Non-Wildcard</button>
+                                <button id="wildcard-btn" class="option-btn">Wildcard</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Moved Configuration Type above Clash Configuration Options -->
+                    <div class="form-group">
+                        <label>Configuration Type</label>
+                        <div class="config-type-selector">
+                            <button id="minimal-config" class="format-btn active">Minimal (Proxies Only)</button>
+                            <button id="full-config" class="format-btn">Full Configuration</button>
+                        </div>
+                    </div>
+
+                    <!-- Clash Configuration Options - now conditionally visible -->
+                    <div class="form-group" id="clash-options" style="margin-top: 1rem; display: none;">
+                        <label>Clash Configuration Options</label>
+
+                        <div class="option-group">
+                            <label class="option-label">DNS Mode:</label>
+                            <div class="option-selector">
+                                <button id="fake-ip" class="option-btn active">Fake IP</button>
+                                <button id="redir-host" class="option-btn">Redir Host</button>
+                            </div>
+                        </div>
+
+                        <div class="option-group">
+                            <label class="option-label">Proxy Groups:</label>
+                            <div class="option-selector">
+                                <button id="best-ping" class="option-btn active">Best Ping</button>
+                                <button id="load-balance" class="option-btn">Load Balance</button>
+                                <button id="fallback" class="option-btn">Fallback</button>
+                                <button id="all-groups" class="option-btn">All Groups</button>
+                            </div>
+                        </div>
+
+                        <div class="option-group">
+                            <label class="option-label">Rule Sets:</label>
+                            <div class="option-selector">
+                                <button id="ads-block" class="option-btn active">Ads Block</button>
+                                <button id="porn-block" class="option-btn active">Porn Block</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="convert-v2ray" class="convert-btn">
+                        <i class="fas fa-sync-alt"></i> Convert
+                    </button>
+
+                    <div class="form-group">
+                        <div class="result-header">
+                            <label for="config-output">Result</label>
+                            <div class="result-actions">
+                                <button id="copy-config" class="copy-btn">
+                                    <i class="far fa-copy"></i> Copy
+                                </button>
+                                <button id="save-proxy-provider" class="download-btn">
+                                    <i class="fas fa-download"></i> Save Proxy
+                                </button>
+                                <button id="save-full-config" class="download-btn">
+                                    <i class="fas fa-file-download"></i> Save Full
+                                </button>
+                            </div>
+                        </div>
+                        <textarea id="config-output" class="converter-textarea result-textarea" readonly placeholder="Converted configuration will appear here..."></textarea>
+                    </div>
+                </div>	
+				<br>
+                <a href="index.html" class="convert-btn">
+                    <i class="fas fa-home"></i> Home
+                </a>
+
+                <div id="loading-indicator" class="loading-indicator hidden">
+                    <div class="spinner"></div>
+                    <p>Converting...</p>
+                </div>
+
+                <div id="error-message" class="error-message hidden"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="circuit-line circuit-line-1"></div>
+        <div class="circuit-line circuit-line-2"></div>
+        <div class="circuit-line circuit-line-3"></div>
+        <div class="circuit-line circuit-line-4"></div>
+        <div class="circuit-dot circuit-dot-1"></div>
+        <div class="circuit-dot circuit-dot-2"></div>
+        <div class="circuit-dot circuit-dot-3"></div>
+        <div class="circuit-dot circuit-dot-4"></div>
+
+        <div class="footer-logo">AFRCloud - NET</div>
+        <div class="footer-powered">POWERED BY SECURE TECHNOLOGY</div>
+        <div class="footer-social">
+            <a href="https://t.me/Noir7R" class="social-link" target="_blank">
+                <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-8.609 3.33c-2.068.8-4.133 1.598-5.724 2.21a405.15 405.15 0 0 1-2.849 1.09c-.42.147-.99.332-1.473.901-.728.968.193 1.798.919 2.286 1.61.516 3.275 1.009 4.654 1.472.846 1.467 1.618 2.796 2.503 4.532.545 1.062 1.587 2.739 3.19 2.756 1.26.033 2.052-.6 3.542-1.95a142.91 142.91 0 0 1 2.43-2.053c1.686-.142 3.382-.284 5.12-.436.887-.075 1.92-.262 2.405-1.226.436-.877-.015-1.35-.48-1.874l-3.881-4.369-5.481-6.174S22.185 2.128 21.198 2.433z"></path>
+                    <path d="M18.167 7.068c.237 1.632-1.162 6.872-1.766 8.849"></path>
+                </svg>
+            @Noir7R
+        </a>
+    </div>
+        <div class="footer-social">
+        <a href="https://t.me/inconigto_Mode" class="social-link" target="_blank">
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-8.609 3.33c-2.068.8-4.133 1.598-5.724 2.21a405.15 405.15 0 0 1-2.849 1.09c-.42.147-.99.332-1.473.901-.728.968.193 1.798.919 2.286 1.61.516 3.275 1.009 4.654 1.472.846 1.467 1.618 2.796 2.503 4.532.545 1.062 1.587 2.739 3.19 2.756 1.26.033 2.052-.6 3.542-1.95a142.91 142.91 0 0 1 2.43-2.053c1.686-.142 3.382-.284 5.12-.436.887-.075 1.92-.262 2.405-1.226.436-.877-.015-1.35-.48-1.874l-3.881-4.369-5.481-6.174S22.185 2.128 21.198 2.433z"></path>
+                <path d="M18.167 7.068c.237 1.632-1.162 6.872-1.766 8.849"></path>
+            </svg>
+            @inconigto_Mode
+        </a>
+        <a href="https://t.me/InconigtoMode" class="social-link" target="_blank">
+            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-8.609 3.33c-2.068.8-4.133 1.598-5.724 2.21a405.15 405.15 0 0 1-2.849 1.09c-.42.147-.99.332-1.473.901-.728.968.193 1.798.919 2.286 1.61.516 3.275 1.009 4.654 1.472.846 1.467 1.618 2.796 2.503 4.532.545 1.062 1.587 2.739 3.19 2.756 1.26.033 2.052-.6 3.542-1.95a142.91 142.91 0 0 1 2.43-2.053c1.686-.142 3.382-.284 5.12-.436.887-.075 1.92-.262 2.405-1.226.436-.877-.015-1.35-.48-1.874l-3.881-4.369-5.481-6.174S22.185 2.128 21.198 2.433z"></path>
+                <path d="M18.167 7.068c.237 1.632-1.162 6.872-1.766 8.849"></path>
+            </svg>
+            @InconigtoMode
+        </a>
+    </div>
+    <div class="footer-year">© <span id="current-year"></span></div></footer>
+    <div id="donation-button" class="donate-btn">
+        <i class="fas fa-hand-holding-heart"></i>
+    </div>
+
+    <!-- Donation Modal -->
+    <div id="donation-modal" class="donation-modal">
+        <div class="donation-backdrop" id="donation-backdrop"></div>
+        <div class="donation-content" id="donation-content">
+            <!-- Animated border -->
+            <div class="donation-border">
+                <div class="donation-border-animation"></div>
+            </div>
+
+            <div class="donation-body">
+                <button id="close-donation" class="close-donation">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <h3 class="donation-title">Support Inconigto-Mode</h3>
+                <p class="donation-text">Your donation helps keep our services running</p>
+
+                <div class="qris-container">
+                    <!-- Inner animated border -->
+                    <div class="qris-border">
+                        <div class="qris-border-animation"></div>
+                    </div>
+                    <div class="qris-image-container">
+                        <img src="https://raw.githubusercontent.com/AFRCloud/AFR-Cloud/refs/heads/master/web/qris.png" alt="Donation QR Code" class="qris-image">
+                    </div>
+                </div>
+
+                <p class="donation-small-text">Scan this QR code with your payment app to donate</p>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="js/common.js"></script>
+    <script>
+    /**
+     * JavaScript for the converter page
+     */
+    document.addEventListener("DOMContentLoaded", () => {
+      // DOM Elements
+      const v2rayToConfigSection = document.getElementById("v2ray-to-config-section")
+      const v2rayInput = document.getElementById("v2ray-input")
+      const configOutput = document.getElementById("config-output")
+      const convertV2rayBtn = document.getElementById("convert-v2ray")
+      const copyConfigBtn = document.getElementById("copy-config")
+      const loadingIndicator = document.getElementById("loading-indicator")
+      const errorMessage = document.getElementById("error-message")
+      // Clash configuration options
+      const fakeIpBtn = document.getElementById("fake-ip")
+      const redirHostBtn = document.getElementById("redir-host")
+      const bestPingBtn = document.getElementById("best-ping")
+      const loadBalanceBtn = document.getElementById("load-balance")
+      const fallbackBtn = document.getElementById("fallback")
+      const allGroupsBtn = document.getElementById("all-groups")
+      const adsBlockBtn = document.getElementById("ads-block")
+      const pornBlockBtn = document.getElementById("porn-block")
+      const clashOptionsSection = document.getElementById("clash-options")
+      // Download buttons for V2Ray to Config
+      const saveProxyProviderBtn = document.getElementById("save-proxy-provider")
+      const saveFullConfigBtn = document.getElementById("save-full-config")
+
+      // Configuration type toggle for V2Ray to Config
+      const minimalConfigBtn = document.getElementById("minimal-config")
+      const fullConfigBtn = document.getElementById("full-config")
+
+      // New: Custom Server / Bug DOM elements
+      const customServerToggleBtn = document.getElementById("custom-server-toggle");
+      const customServerInputContainer = document.getElementById("custom-server-input-container");
+      const customServerInput = document.getElementById("custom-server-input");
+      const nonWildcardBtn = document.getElementById("non-wildcard-btn");
+      const wildcardBtn = document.getElementById("wildcard-btn");
+
+
+      // Ensure V2Ray to Config section is always visible and active
+      v2rayToConfigSection.classList.remove("hidden")
+      hideError()
+      toggleClashOptionsVisibility()
+
+      // Event Listener for custom server toggle
+      customServerToggleBtn.addEventListener("click", () => {
+          customServerToggleBtn.classList.toggle("active");
+          if (customServerToggleBtn.classList.contains("active")) {
+              customServerInputContainer.style.display = "block";
+              // Ensure non-wildcard is active by default when custom server is enabled
+              nonWildcardBtn.classList.add("active");
+              wildcardBtn.classList.remove("active");
+          } else {
+              customServerInputContainer.style.display = "none";
+              customServerInput.value = ""; // Clear input when disabled
+          }
+          hideError();
+      });
+
+      // Event Listeners for Wildcard/Non-Wildcard toggle
+      nonWildcardBtn.addEventListener("click", () => {
+          nonWildcardBtn.classList.add("active");
+          wildcardBtn.classList.remove("active");
+          hideError();
+      });
+
+      wildcardBtn.addEventListener("click", () => {
+          wildcardBtn.classList.add("active");
+          nonWildcardBtn.classList.remove("active");
+          hideError();
+      });
+
+      // Configuration type toggle for V2Ray to Config
+      minimalConfigBtn.addEventListener("click", () => {
+        minimalConfigBtn.classList.add("active")
+        fullConfigBtn.classList.remove("active")
+        hideError()
+        // Update download button visibility
+        saveProxyProviderBtn.style.display = "flex"
+        saveFullConfigBtn.style.display = "none"
+        toggleClashOptionsVisibility() // Call the new function
+      })
+      fullConfigBtn.addEventListener("click", () => {
+        fullConfigBtn.classList.add("active")
+        minimalConfigBtn.classList.remove("active")
+        hideError()
+        // Update download button visibility
+        saveProxyProviderBtn.style.display = "none"
+        saveFullConfigBtn.style.display = "flex"
+        toggleClashOptionsVisibility() // Call the new function
+      })
+
+      // Toggle DNS mode options
+      fakeIpBtn.addEventListener("click", () => {
+        fakeIpBtn.classList.add("active")
+        redirHostBtn.classList.remove("active")
+        hideError()
+      })
+      redirHostBtn.addEventListener("click", () => {
+        redirHostBtn.classList.add("active")
+        fakeIpBtn.classList.remove("active")
+        hideError()
+      })
+
+      // Toggle proxy group options
+      bestPingBtn.addEventListener("click", () => {
+        bestPingBtn.classList.toggle("active")
+        hideError()
+      })
+      loadBalanceBtn.addEventListener("click", () => {
+        loadBalanceBtn.classList.toggle("active")
+        hideError()
+      })
+      fallbackBtn.addEventListener("click", () => {
+        fallbackBtn.classList.toggle("active")
+        hideError()
+      })
+      allGroupsBtn.addEventListener("click", () => {
+        if (allGroupsBtn.classList.contains("active")) {
+          allGroupsBtn.classList.remove("active")
+        } else {
+          allGroupsBtn.classList.add("active")
+          bestPingBtn.classList.add("active")
+          loadBalanceBtn.classList.add("active")
+          fallbackBtn.classList.add("active")
+        }
+        hideError()
+      })
+
+      // Toggle rule set options
+      adsBlockBtn.addEventListener("click", () => {
+        adsBlockBtn.classList.toggle("active")
+        hideError()
+      })
+      pornBlockBtn.addEventListener("click", () => {
+        pornBlockBtn.classList.toggle("active")
+        hideError()
+      })
+
+      // Convert V2Ray to Config
+      convertV2rayBtn.addEventListener("click", () => {
+        const v2rayLinks = v2rayInput.value.trim()
+        if (!v2rayLinks) {
+          showError("Please enter V2Ray links to convert")
+          return
+        }
+        showLoading()
+        setTimeout(() => {
+          try {
+            const result = convertV2rayToConfig(v2rayLinks)
+            configOutput.value = result
+            hideLoading()
+          } catch (error) {
+            hideLoading()
+            showError(error.message || "Failed to convert V2Ray links. Please check your input.")
+          }
+        }, 500)
+      })
+
+      // Copy buttons
+      copyConfigBtn.addEventListener("click", () => {
+        copyToClipboard(configOutput.value)
+        copyConfigBtn.innerHTML = '<i class="fas fa-check"></i> Copied!'
+        setTimeout(() => {
+          copyConfigBtn.innerHTML = '<i class="far fa-copy"></i> Copy'
+        }, 2000)
+      })
+
+      // Download functions
+      function downloadAsYaml(content, filename) {
+        // Create a blob with the YAML content
+        const blob = new Blob([content], { type: "text/yaml" })
+        // Create a URL for the blob
+        const url = URL.createObjectURL(blob)
+        // Create a temporary link element
+        const a = document.createElement("a")
+        a.href = url
+        a.download = filename
+        // Trigger the download
+        document.body.appendChild(a)
+        a.click()
+        // Clean up
+        document.body.removeChild(a)
+        URL.revokeObjectURL(url)
+        // Show success toast
+        showToast(`File "${filename}" downloaded successfully!`)
+      }
+
+      function showToast(message) {
+        // Create toast element if it doesn't exist
+        let toast = document.getElementById("toast-notification")
+        if (!toast) {
+          toast = document.createElement("div")
+          toast.id = "toast-notification"
+          toast.className = "toast-notification"
+          toast.innerHTML = `<i class="fas fa-check-circle"></i> <span id="toast-message"></span>`
+          document.body.appendChild(toast)
+        }
+        // Set message and show toast
+        document.getElementById("toast-message").textContent = message
+        toast.classList.add("show")
+        // Hide toast after 3 seconds
+        setTimeout(() => {
+          toast.classList.remove("show")
+        }, 3000)
+      }
+
+      // Download buttons for V2Ray to Config
+      saveProxyProviderBtn.addEventListener("click", () => {
+        const content = configOutput.value
+        if (!content) {
+          showError("No content to download. Please convert first.")
+          return
+        }
+        // Add timestamp to filename
+        const timestamp = new Date().toISOString().replace(/[:.]/g, "-").substring(0, 19)
+        downloadAsYaml(content, `proxy_provider_${timestamp}.yaml`)
+      })
+      saveFullConfigBtn.addEventListener("click", () => {
+        const content = configOutput.value
+        if (!content) {
+          showError("No content to download. Please convert first.")
+          return
+        }
+        // Add timestamp to filename
+        const timestamp = new Date().toISOString().replace(/[:.]/g, "-").substring(0, 19)
+        downloadAsYaml(content, `inconigto-mode_${timestamp}.yaml`)
+      })
+
+      // Helper functions
+      function showLoading() {
+        loadingIndicator.classList.remove("hidden")
+      }
+      function hideLoading() {
+        loadingIndicator.classList.add("hidden")
+      }
+      function showError(message) {
+        errorMessage.textContent = message
+        errorMessage.classList.remove("hidden")
+      }
+      function hideError() {
+        errorMessage.classList.add("hidden")
+      }
+      async function copyToClipboard(text) {
+        try {
+          await navigator.clipboard.writeText(text)
+          return true
+        } catch (err) {
+          console.error("Failed to copy: ", err)
+          // Fallback method
+          const textarea = document.createElement("textarea")
+          textarea.value = text
+          textarea.style.position = "fixed"
+          textarea.style.opacity = "0"
+          document.body.appendChild(textarea)
+          textarea.select()
+          document.execCommand("copy")
+          document.body.removeChild(textarea)
+          return true
+        }
+      }
+
+      // Conversion functions
+      function convertV2rayToConfig(v2rayLinks) {
+        // Split input by lines
+        const links = v2rayLinks.split(/\r?\n/).filter((line) => line.trim() !== "")
+        if (links.length === 0) {
+          throw new Error("No valid V2Ray links found")
+        }
+        // Process each link
+        const parsedLinks = links.map((link) => parseV2rayLink(link))
+
+        // Apply custom server/bug if enabled
+        const useCustomServer = customServerToggleBtn.classList.contains("active");
+        const customServerValue = customServerInput.value.trim();
+        const isWildcardMode = wildcardBtn.classList.contains("active"); // Check if wildcard is active
+
+        if (useCustomServer && customServerValue) {
+            parsedLinks.forEach(link => {
+                // Store original values before potential modification of 'server'
+                const originalSni = link.sni;
+                const originalWsHost = link.wsHost;
+
+                link.server = customServerValue; // Always replace server
+
+                if (isWildcardMode) {
+                    // For Wildcard mode, append customServerValue to sni, servername, wsHost
+                    if (link.type === "vmess" || link.type === "vless" || link.type === "trojan") {
+                        if (originalSni && originalSni !== link.server) { // Only append if original SNI exists and is not the same as the original server
+                            link.sni = `${customServerValue}.${originalSni}`;
+                        } else {
+                            link.sni = customServerValue; // If no original SNI or it's just the server, just use custom
+                        }
+                    }
+                    // For SS, wsHost is part of plugin-opts. For other types, wsHost is a direct property.
+                    if (link.network === "ws" || link.type === "ss") {
+                        if (originalWsHost && originalWsHost !== link.server) { // Only append if original wsHost exists and is not the same as the original server
+                            link.wsHost = `${customServerValue}.${originalWsHost}`;
+                        } else {
+                            link.wsHost = customServerValue; // If no original wsHost or it's just the server, just use custom
+                        }
+                    }
+                }
+                // If not wildcard mode, sni, wsHost remain as parsed from original link.
+            });
+        }
+
+        // Get configuration type
+        const isFullConfig = fullConfigBtn.classList.contains("active")
+        // Get Clash configuration options
+        const useFakeIp = fakeIpBtn.classList.contains("active")
+        const useBestPing = bestPingBtn.classList.contains("active")
+        const useLoadBalance = loadBalanceBtn.classList.contains("active")
+        const useFallback = fallbackBtn.classList.contains("active")
+        const useAllGroups = allGroupsBtn.classList.contains("active")
+        const useAdsBlock = adsBlockBtn.classList.contains("active")
+        const usePornBlock = pornBlockBtn.classList.contains("active")
+
+        // Only generates Clash config
+        return generateClashConfig(parsedLinks, isFullConfig, {
+          useFakeIp,
+          useBestPing,
+          useLoadBalance,
+          useFallback,
+          useAllGroups,
+          useAdsBlock,
+          usePornBlock,
+        })
+      }
+
+      function parseV2rayLink(link) {
+        try {
+          // Determine protocol
+          if (link.startsWith("vmess://")) {
+            return parseVmessLink(link)
+          } else if (link.startsWith("vless://")) {
+            return parseVlessLink(link)
+          } else if (link.startsWith("trojan://")) {
+            return parseTrojanLink(link)
+          } else if (link.startsWith("ss://")) {
+            return parseShadowsocksLink(link)
+          } else {
+            throw new Error(`Unsupported protocol in link: ${link}`)
+          }
+        } catch (error) {
+          console.error("Error parsing link:", error)
+          throw new Error(`Failed to parse link: ${link}`)
+        }
+      }
+
+      function parseVmessLink(link) {
+        // Remove vmess:// prefix and decode base64
+        const base64Content = link.replace("vmess://", "")
+        let config
+        try {
+          const decodedContent = atob(base64Content)
+          config = JSON.parse(decodedContent)
+        } catch (error) {
+          throw new Error("Invalid VMess link format")
+        }
+        return {
+          type: "vmess",
+          name: config.ps || "VMess Server",
+          server: config.add,
+          port: Number.parseInt(config.port),
+          uuid: config.id,
+          alterId: Number.parseInt(config.aid || "0"),
+          cipher: config.scy || "auto",
+          tls: config.tls === "tls",
+          network: config.net || "tcp",
+          wsPath: config.path || "",
+          wsHost: config.host || "",
+          sni: config.sni || config.add,
+          skipCertVerify: true,
+        }
+      }
+
+      function parseVlessLink(link) {
+        // Format: vless://uuid@server:port?params#name
+        try {
+          // Remove vless:// prefix
+          const content = link.replace("vless://", "")
+          // Split into parts
+          const [userInfo, rest] = content.split("@")
+          const [serverPort, paramsAndName] = rest.split("?")
+          const [server, port] = serverPort.split(":")
+          // Parse params and name
+          const params = {}
+          let name = ""
+          if (paramsAndName) {
+            const [paramsStr, encodedName] = paramsAndName.split("#")
+            name = encodedName ? decodeURIComponent(encodedName) : "VLESS Server"
+            // Parse params
+            paramsStr.split("&").forEach((param) => {
+              const [key, value] = param.split("=")
+              params[key] = value ? decodeURIComponent(value) : ""
+            })
+          }
+          return {
+            type: "vless",
+            name: name,
+            server: server,
+            port: Number.parseInt(port),
+            uuid: userInfo,
+            tls: params.security === "tls",
+            network: params.type || "tcp",
+            wsPath: params.path || "",
+            wsHost: params.host || "",
+            sni: params.sni || server,
+            skipCertVerify: true,
+          }
+        } catch (error) {
+          throw new Error("Invalid VLESS link format")
+        }
+      }
+
+      function parseTrojanLink(link) {
+        // Format: trojan://password@server:port?params#name
+        try {
+          // Remove trojan:// prefix
+          const content = link.replace("trojan://", "")
+          // Split into parts
+          const [password, rest] = content.split("@")
+          const [serverPort, paramsAndName] = rest.split("?")
+          const [server, port] = serverPort.split(":")
+          // Parse params and name
+          const params = {}
+          let name = ""
+          if (paramsAndName) {
+            const [paramsStr, encodedName] = paramsAndName.split("#")
+            name = encodedName ? decodeURIComponent(encodedName) : "Trojan Server"
+            // Parse params
+            paramsStr.split("&").forEach((param) => {
+              const [key, value] = param.split("=")
+              params[key] = value ? decodeURIComponent(value) : ""
+            })
+          }
+          return {
+            type: "trojan",
+            name: name,
+            server: server,
+            port: Number.parseInt(port),
+            password: password,
+            tls: params.security === "tls" || true, // Trojan usually uses TLS
+            network: params.type || "tcp",
+            wsPath: params.path || "",
+            wsHost: params.host || "",
+            sni: params.sni || server,
+            skipCertVerify: true,
+          }
+        } catch (error) {
+          throw new Error("Invalid Trojan link format")
+        }
+      }
+
+      // Update the parseShadowsocksLink function to properly extract path and TLS settings
+      function parseShadowsocksLink(link) {
+        // Format: ss://base64(method:password)@server:port?params#name
+        try {
+          // Remove ss:// prefix
+          const content = link.replace("ss://", "")
+          let userInfo,
+            serverPort,
+            name,
+            params = {}
+          // Check if the link contains @ (SIP002 format)
+          if (content.includes("@")) {
+            const [encodedUserInfo, rest] = content.split("@")
+            let serverPortStr, paramsNamePart
+            // Check if there are URL parameters
+            if (rest.includes("?")) {
+              const [serverPortPart, tempParamsNamePart] = rest.split("?")
+              serverPortStr = serverPortPart
+              paramsNamePart = tempParamsNamePart
+            } else {
+              // No params, just server:port#name
+              const [serverPortPart, encodedName] = rest.split("#")
+              serverPortStr = serverPortPart
+              name = encodedName ? decodeURIComponent(encodedName) : "SS Server"
+            }
+
+            // Parse params and name if paramsNamePart exists
+            if (paramsNamePart) {
+              const [paramsStr, encodedName] = paramsNamePart.split("#")
+              name = encodedName ? decodeURIComponent(encodedName) : "SS Server"
+              // Parse params
+              paramsStr.split("&").forEach((param) => {
+                const [key, value] = param.split("=")
+                params[key] = value ? decodeURIComponent(value) : ""
+              })
+            }
+
+            // Decode user info (method:password)
+            try {
+              userInfo = atob(encodedUserInfo)
+            } catch (e) {
+              // If decoding fails, it might be URL encoded
+              userInfo = decodeURIComponent(encodedUserInfo)
+            }
+            serverPort = serverPortStr
+          } else {
+            // Legacy format: base64(method:password@server:port)
+            const [encodedData, encodedName] = content.split("#")
+            const decodedData = atob(encodedData)
+            // Split into method:password and server:port
+            const atIndex = decodedData.lastIndexOf("@")
+            userInfo = decodedData.substring(0, atIndex)
+            serverPort = decodedData.substring(atIndex + 1)
+            name = encodedName ? decodeURIComponent(encodedName) : "SS Server"
+          }
+
+          // Parse user info
+          const [method, password] = userInfo.split(":")
+          // Parse server and port
+          const [server, port] = serverPort.split(":")
+          return {
+            type: "ss",
+            name: name,
+            server: server,
+            port: Number.parseInt(port),
+            cipher: method,
+            password: password,
+            udp: false,
+            tls: params.security === "tls" || (params.plugin_opts && params.plugin_opts.includes("tls=1")), // Check for tls in plugin_opts
+            wsPath: params.path || (params.plugin_opts ? (params.plugin_opts.match(/path=([^;]+)/) || ["", ""])[1] : ""),
+            wsHost: params.host || (params.plugin_opts ? (params.plugin_opts.match(/host=([^;]+)/) || ["", ""])[1] : server),
+            sni: params.sni || server,
+            skipCertVerify: true,
+          }
+        } catch (error) {
+          console.error("Invalid Shadowsocks link format:", error)
+          throw new Error("Invalid Shadowsocks link format")
+        }
+      }
+
+      // Update the SS section in generateClashConfig to use the correct path and TLS settings
+      function generateClashConfig(parsedLinks, isFullConfig = false, options = {}) {
+        const {
+          useFakeIp = true,
+          useBestPing = true,
+          useLoadBalance = false,
+          useFallback = false,
+          useAllGroups = false,
+          useAdsBlock = true,
+          usePornBlock = true,
+        } = options
+        let config = `# Clash Configuration\n# Generated by Inconigto-Mode Converter\n# Date: ${new Date().toISOString()}\n`
+
+        if (isFullConfig) {
+          config += `port: 7890\nsocks-port: 7891\nallow-lan: true\nmode: rule\nlog-level: info\nexternal-controller: 127.0.0.1:9090\ndns:\n  enable: true\n  listen: 0.0.0.0:53\n  ${useFakeIp ? "enhanced-mode: fake-ip" : "enhanced-mode: redir-host"}\n  nameserver:\n    - 8.8.8.8\n    - 1.1.1.1\n    - https://dns.cloudflare.com/dns-query\n  fallback:\n    - 1.0.0.1\n    - 8.8.4.4\n    - https://dns.google/dns-query\n`
+          if (useAdsBlock || usePornBlock) {
+            config += `rule-providers:\n`
+            if (useAdsBlock) {
+              config += `  ⛔ ADS:\n    type: http\n    behavior: domain\n    url: "https://raw.githubusercontent.com/malikshi/open_clash/refs/heads/main/rule_provider/rule_basicads.yaml"\n    path: "./rule_provider/rule_basicads.yaml"\n    interval: 86400\n`
+            }
+            if (usePornBlock) {
+              config += `  🔞 Porn:\n    type: http\n    behavior: domain\n    url: "https://raw.githubusercontent.com/malikshi/open_clash/refs/heads/main/rule_provider/rule_porn.yaml"\n    path: "./rule_provider/rule_porn.yaml"\n    interval: 86400\n`
+            }
+          }
+        }
+        config += `proxies:`
+        // Add all proxies
+        parsedLinks.forEach((link, index) => {
+          config += "\n"
+          if (link.type === "vmess") {
+            config += `  - name: "[${index + 1}]-${link.name}"\n    type: vmess\n    server: ${link.server}\n    port: ${link.port}\n    uuid: ${link.uuid}\n    alterId: ${link.alterId || 0}\n    cipher: ${link.cipher || "auto"}\n    udp: true\n    tls: ${link.tls}\n    skip-cert-verify: ${link.skipCertVerify || true}\n`
+            if (link.network === "ws") {
+              config += `    network: ws\n    ws-opts:\n      path: ${link.wsPath || ""}\n`
+              if (link.wsHost) {
+                config += `      headers:\n        Host: ${link.wsHost}\n`
+              }
+            }
+            if (link.tls && link.sni) {
+              config += `    servername: ${link.sni}\n`
+            }
+          } else if (link.type === "vless") {
+            config += `  - name: "[${index + 1}]-${link.name}"\n    type: vless\n    server: ${link.server}\n    port: ${link.port}\n    uuid: ${link.uuid}\n    udp: true\n    tls: ${link.tls}\n    skip-cert-verify: ${link.skipCertVerify || true}\n`
+            if (link.network === "ws") {
+              config += `    network: ws\n    ws-opts:\n      path: ${link.wsPath || ""}\n`
+              if (link.wsHost) {
+                config += `      headers:\n        Host: ${link.wsHost}\n`
+              }
+            }
+            if (link.tls && link.sni) {
+              config += `    servername: ${link.sni}\n`
+            }
+          } else if (link.type === "trojan") {
+            config += `  - name: "[${index + 1}]-${link.name}"\n    type: trojan\n    server: ${link.server}\n    port: ${link.port}\n    password: ${link.password}\n    udp: true\n    skip-cert-verify: ${link.skipCertVerify || true}\n`
+            if (link.network === "ws") {
+              config += `    network: ws\n    ws-opts:\n      path: ${link.wsPath || ""}\n`
+              if (link.wsHost) {
+                config += `      headers:\n        Host: ${link.wsHost}\n`
+              }
+            }
+            if (link.sni) {
+              config += `    sni: ${link.sni}\n`
+            }
+          } else if (link.type === "ss") {
+            config += `  - name: "[${index + 1}]-${link.name}"\n    server: ${link.server}\n    port: ${link.port}\n    type: ss\n    cipher: ${link.cipher || "none"}\n    password: ${link.password}\n    plugin: v2ray-plugin\n    client-fingerprint: chrome\n    udp: false\n    plugin-opts:\n      mode: websocket\n      host: ${link.wsHost || link.server}\n      path: ${link.wsPath || ""}\n      tls: ${link.tls}\n      mux: false\n      skip-cert-verify: true\n    headers:\n      custom: value\n      ip-version: dual\n      v2ray-http-upgrade: false\n      v2ray-http-upgrade-fast-open: false\n`
+          }
+        })
+
+        if (isFullConfig) {
+          // Create a list of proxy names first to avoid duplication
+          const proxyNames = parsedLinks.map((link, index) => `"[${index + 1}]-${link.name}"`)
+          config += `\nproxy-groups:\n  - name: "INCONIGTO-MODE"\n    type: select\n    proxies:\n      - SELECTOR\n`
+          if (useBestPing) config += `      - BEST-PING\n`
+          if (useLoadBalance) config += `      - LOAD-BALANCE\n`
+          if (useFallback) config += `      - FALLBACK\n`
+          config += `      - DIRECT\n      - REJECT\n`
+
+          // Add SELECTOR group
+          config += `  - name: "SELECTOR"\n    type: select\n    proxies:\n      - DIRECT\n      - REJECT\n`
+          // Add all proxy names to the SELECTOR group only once
+          proxyNames.forEach((name) => {
+            config += `      - ${name}\n`
+          })
+
+          // Add proxy groups based on options
+          if (useBestPing) {
+            config += `  - name: "BEST-PING"\n    type: url-test\n    url: http://www.gstatic.com/generate_204\n    interval: 300\n    tolerance: 50\n    proxies:\n`
+            // Add all proxy names to the url-test group
+            proxyNames.forEach((name) => {
+              config += `      - ${name}\n`
+            })
+          }
+          if (useLoadBalance) {
+            config += `  - name: "LOAD-BALANCE"\n    type: load-balance\n    url: http://www.gstatic.com/generate_204\n    interval: 300\n    strategy: round-robin\n    proxies:\n`
+            // Add all proxy names to the load-balance group
+            proxyNames.forEach((name) => {
+              config += `      - ${name}\n`
+            })
+          }
+          if (useFallback) {
+            config += `  - name: "FALLBACK"\n    type: fallback\n    url: http://www.gstatic.com/generate_204\n    interval: 300\n    proxies:\n`
+            // Add all proxy names to the fallback group
+            proxyNames.forEach((name) => {
+              config += `      - ${name}\n`
+            })
+          }
+
+          // Add rule groups if needed
+          if (useAdsBlock) {
+            config += `  - name: "ADS"\n    type: select\n    proxies:\n      - REJECT\n      - DIRECT\n`
+            if (useBestPing) config += `      - BEST-PING\n`
+            if (useLoadBalance) config += `      - LOAD-BALANCE\n`
+            if (useFallback) config += `      - FALLBACK\n`
+          }
+          if (usePornBlock) {
+            config += `  - name: "PORN"\n    type: select\n    proxies:\n      - REJECT\n      - DIRECT\n`
+            if (useBestPing) config += `      - BEST-PING\n`
+            if (useLoadBalance) config += `      - LOAD-BALANCE\n`
+            if (useFallback) config += `      - FALLBACK\n`
+          }
+
+          // Add rules
+          config += `rules:\n`
+          if (useAdsBlock) {
+            config += `  - RULE-SET,⛔ ADS,ADS\n`
+          }
+          if (usePornBlock) {
+            config += `  - RULE-SET,🔞 Porn,PORN\n`
+          }
+          config += `  - IP-CIDR,192.168.0.0/16,DIRECT\n  - IP-CIDR,10.0.0.0/8,DIRECT\n  - IP-CIDR,172.16.0.0/12,DIRECT\n  - IP-CIDR,127.0.0.0/8,DIRECT\n  - MATCH,INCONIGTO-MODE\n`
+        }
+        return config
+      }
+
+      // Function to toggle visibility of Clash Configuration Options
+      function toggleClashOptionsVisibility() {
+        if (fullConfigBtn.classList.contains("active")) {
+          clashOptionsSection.style.display = "block"
+        } else {
+          clashOptionsSection.style.display = "none"
+        }
+      }
+
+      // Initialize Clash options visibility on page load
+      toggleClashOptionsVisibility()
+    })
+    </script>
+</body>
+</html>
