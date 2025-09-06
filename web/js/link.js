@@ -11,7 +11,7 @@ let filteredProxyList = []
 let selectedProxy = null
 const defaultProxyUrl = "https://raw.githubusercontent.com/AFRcloud/ProxyList/refs/heads/main/ProxyList.txt"
 
-const serverDomains = ["stbwrt.web.id","stbwrt.biz.id"]
+const serverDomains = ["stbwrt.web.id"]
 let selectedServerDomain = serverDomains[0] // Default to first domain
 const defaultUUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
 const itemsPerPage = 10
@@ -686,7 +686,7 @@ function renderProxyList() {
     proxyListContainer.appendChild(card)
 
     // Check proxy status for this card
-    const statusURL = `https://afrcloud.dpdns.org/${proxy.ip}:${proxy.port}`
+    const statusURL = `https://api.stbwrt.web.id/${proxy.ip}:${proxy.port}`
 
     fetch(statusURL)
       .then((response) => response.json())
@@ -730,7 +730,7 @@ function renderProxyList() {
 
 // Function to check proxy status in the list
 function checkProxyStatusInList(proxy, statusBadge) {
-  const statusURL = `https://afrcloud.dpdns.org/${proxy.ip}:${proxy.port}`
+  const statusURL = `https://api.stbwrt.web.id/${proxy.ip}:${proxy.port}`
 
   fetch(statusURL)
     .then((response) => response.json())
@@ -927,7 +927,7 @@ async function selectProxy(index) {
 // Function to check proxy status in the account creation section
 function checkProxyStatus(proxy) {
   const startTime = performance.now()
-  const statusURL = `https://afrcloud.dpdns.org/${proxy.ip}:${proxy.port}`
+  const statusURL = `https://api.stbwrt.web.id/${proxy.ip}:${proxy.port}`
   const statusContainer = document.getElementById("proxy-status-container")
   const statusLoading = document.getElementById("proxy-status-loading")
   const statusActive = document.getElementById("proxy-status-active")
