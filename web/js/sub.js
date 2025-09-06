@@ -1,6 +1,6 @@
 const CONFIG = {
   'proxyListUrl': "https://raw.githubusercontent.com/AFRcloud/ProxyList/refs/heads/main/ProxyList.txt",
-  'apiCheckUrl': "https://api.stbwrt.web.id/",
+  'apiCheckUrl': "https://web-api.afrcloud.fun/",
   'mainDomains': ["afrcloud.biz.id"],
   'defaultUuid': 'bbbbbbbb-cccc-4ddd-eeee-ffffffffffff',
   'maxProxies': 0x32,
