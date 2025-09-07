@@ -8,7 +8,11 @@ workers_dev = true
 routes = [
 
   { pattern = "afrcloud.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.afrcloud.biz.id", custom_domain = true }
+  { pattern = "support.zoom.us.afrcloud.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.afrcloud.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.afrcloud.biz.id", custom_domain = true },
+  { pattern = "df.game.naver.com.afrcloud.biz.id", custom_domain = true },
+  { pattern = "zoomgov.com.afrcloud.biz.id", custom_domain = true }
   ]
 
 [[kv_namespaces]]
