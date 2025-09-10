@@ -1,4 +1,4 @@
-name = "final-siren"
+name = "site-siren"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -7,12 +7,12 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "afrcloud.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.afrcloud.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.afrcloud.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.afrcloud.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.afrcloud.biz.id", custom_domain = true },
-  { pattern = "zoomgov.com.afrcloud.biz.id", custom_domain = true }
+  { pattern = "siren.afrcloud.site", custom_domain = true },
+  { pattern = "support.zoom.us.siren.afrcloud.site", custom_domain = true },
+  { pattern = "ava.game.naver.com.siren.afrcloud.site", custom_domain = true },
+  { pattern = "graph.instagram.com.siren.afrcloud.site", custom_domain = true },
+  { pattern = "df.game.naver.com.siren.afrcloud.site", custom_domain = true },
+  { pattern = "zoomgov.com.siren.afrcloud.site", custom_domain = true }
   ]
 
 [[kv_namespaces]]
@@ -27,7 +27,7 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/FinalSiren/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/FinalSiren/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/FinalSiren/refs/heads/master/web/link.html"
-CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/FinalSiren/refs/heads/master/web/converter.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/afrcloud-site/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/afrcloud-site/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/afrcloud-site/refs/heads/master/web/link.html"
+CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/afrcloud-site/refs/heads/master/web/converter.html"
